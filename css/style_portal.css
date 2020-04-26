@@ -18,16 +18,26 @@ main {
   padding-bottom: 25px;
 }
 
-main a:link {
+main a:visited {
   color: #14A76C;
+  text-shadow:
+		-1px -1px 0 #272727,
+		1px -1px 0 #272727,
+		-1px 1px 0 #272727,
+		1px 1px 0 #272727;
 }
 
-main a:visited {
+main a:link {
   color: #E7C24F;
 }
 
 main a:hover {
   color: #FF652F;
+  text-shadow:
+		-1px -1px 0 #272727,
+		1px -1px 0 #272727,
+		-1px 1px 0 #272727,
+		1px 1px 0 #272727;
 }
 
 hr {
