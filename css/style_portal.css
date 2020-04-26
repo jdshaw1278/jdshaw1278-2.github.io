@@ -29,6 +29,11 @@ main a:visited {
 
 main a:link {
   color: #E7C24F;
+  text-shadow:
+		-1px -1px 0 #272727,
+		1px -1px 0 #272727,
+		-1px 1px 0 #272727,
+		1px 1px 0 #272727;
 }
 
 main a:hover {
