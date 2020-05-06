@@ -1,0 +1,32 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        border-radius: 25px;
+        height: 100px;
+        padding-left: 75px;
+        padding-right: 20px;
+    }
+    
+    header img {
+        float: right;
+        padding-top: 15px;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    main {
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 25px;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        border-radius: 25px;
+    }
+}

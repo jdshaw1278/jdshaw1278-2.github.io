@@ -1,22 +1,62 @@
 /* SITE WIDE */
 @import url('https://fonts.googleapis.com/css?family=Marck+Script|Merriweather');
+@charset "utf-8";
 
 html {
   background-color: #396E94;
   color: #272727;
 }
 
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Merriweather", Georgia, serif;
+  font-size: 16px;
+  line-height: 1.5;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  height: 100%;
 }
 
-main {
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 25px;
+header, main, footer {
+  margin: 0 auto;
+  padding: 0.75rem;
+  max-width: 45rem;
+}
+
+header, footer {
+  background-color: #272727;
+  text-align: center;
+  border-radius: 10px;
+}
+
+header img {
+  width: 200px;
+  height: auto;
+}
+
+h1 {
+  font-family: "Marck Script", Garamond, cursive;
+  color: #FF652F;
+  font-size: 2rem;
+  margin: 0.15rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: .5rem;
+}
+
+hr {
+  height: 1px;
+  color: #FF652F;
+  background-color: #FF652F;
+  border: none;
+  margin-bottom: 0.75rem;
 }
 
 main a:visited {
@@ -46,43 +86,8 @@ main a:hover {
 		1px 1px 0 #272727;
 }
 
-hr {
-  height: 1px;
-  color: #FF652F;
-  background-color: #FF652F;
-  border: none;
-}
-
-header {
-  background-color: #272727;
-  border-radius: 25px;
-  height: 100px;
-  padding-left: 75px;
-  padding-right: 20px;
-}
-
-img {
-  max-width: 30%;
-  float: right;
-  padding-top: 15px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-}
-
-h1 {
-  padding-top: 15px;
-  font-family: "Marck Script", Garamond, cursive;
-  color: #FF652F;
-  font-size: 350%;
-}
-
 footer {
-  background-color: #272727;
-  border-radius: 25px;
-  padding: 5px;
   color: #E7C24F;
-  text-align: center;
-  height: 75px;
-  margin-top: -15px;
   font-size: small;
 }
 
@@ -100,14 +105,4 @@ footer a:link {
 
 footer div {
   font-size: x-small;
-}
-
-@media screen and (max-width: 550px) {
-
-  /* beginning of media query */
-  .home-grid {
-    display: block;
-  }
-
-  /* end of media query */
 }
