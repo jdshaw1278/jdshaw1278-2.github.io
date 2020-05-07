@@ -1,6 +1,7 @@
 /* SITE WIDE */
 @import url('https://fonts.googleapis.com/css?family=Marck+Script|Merriweather');
 @charset "utf-8";
+<script src="java/main_source.js"></script>
 
 html {
   background-color: #396E94;
