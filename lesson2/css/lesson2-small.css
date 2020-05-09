@@ -7,18 +7,10 @@ html {
     color: #272727;
 }
 
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: "Merriweather", Georgia, serif;
     font-size: 16px;
     line-height: 1.5;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
     height: 100%;
 }
 
@@ -69,7 +61,6 @@ main section {
 
 main img {
     box-shadow: 0 0 30px #333;
-    max-width: 250px;
     height: auto;
 }
 
