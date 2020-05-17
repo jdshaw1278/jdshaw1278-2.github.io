@@ -13,12 +13,13 @@ body {
     height: 100%;
 }
 
-header, footer {
+header,
+footer {
     background-color: #272727;
     width: 90%;
     text-align: center;
     border-radius: 10px;
-    margin: auto;
+    margin: 0 auto;
     padding: 0.75rem;
 }
 
@@ -26,26 +27,31 @@ header nav {
     background-color: #3c3744;
     font-size: 1em;
 }
-header nav ul {
-    display: block;
-  list-style: none; 
-  margin: 0;
+
+header ul {
+    list-style: none;
+    text-align: center;
 }
+
 header nav a {
     color: #fbfff1;
 }
+
 header nav a:hover {
-  background-color: #3066be;  
+    background-color: #3066be;
 }
+
 header nav a:visited {
-    color: #b4c5e4;  
-  }
+    color: #b4c5e4;
+}
+
 h1 {
     font-family: "Marck Script", Garamond, cursive;
     color: #FF652F;
     font-size: 2rem;
     margin: 0.15rem;
 }
+
 header h2 {
     font-family: "Merriweather", Georgia, serif;
     color: #FF652F;
@@ -60,21 +66,27 @@ main {
     width: 80%;
     border-radius: 25px;
 }
-h2, h3 {
+
+h2,
+h3 {
     font-family: "Kotta One", Georgia, serif;
     margin-bottom: .5rem;
     text-align: center;
     color: #3c3744;
 }
+
 h2 {
     font-size: 1.75rem;
 }
+
 h3 {
     font-size: 1.5rem;
 }
+
 .about h3 {
     text-align: left;
 }
+
 .about img {
     width: 256px;
 }
@@ -133,9 +145,10 @@ h3 {
 .type p {
     text-align: center;
 }
+
 .textfonts {
     width: 75%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .textfonts th {
@@ -151,14 +164,16 @@ hr {
     background-color: #3066be;
     border: none;
     margin-bottom: 0.75rem;
-  }
+}
 
 .personas img {
     margin: 0 auto;
     width: 200px;
     height: auto;
-  }
-.target h3, .scenario h3 {
+}
+
+.target h3,
+.scenario h3 {
     text-align: left;
 }
 
@@ -166,38 +181,45 @@ hr {
 .textfonts td {
     width: 25%;
 }
+
 .sitehead {
     color: #0b4f6c;
     font-size: 40px;
     font-family: "Kotta One", Georgia, serif;
 }
+
 .prinav {
     background-color: #3c3744;
     color: #b4c5e4;
     font-size: 20px;
     font-family: "Raleway", Georgia, serif;
 }
+
 .footnav {
     background-color: #3c3744;
     color: #fbfff1;
     font-size: 12px;
     font-family: "Raleway", Georgia, serif;
 }
+
 .head1 {
     color: #3c3744;
     font-size: 30px;
     font-family: "Kotta One", Georgia, serif;
 }
+
 .head2 {
     color: #3c3744;
     font-size: 25px;
     font-family: "Kotta One", Georgia, serif;
 }
+
 .head3 {
     color: #3c3744;
     font-size: 20px;
     font-family: "Kotta One", Georgia, serif;
 }
+
 .para {
     color: #090c9b;
     font-size: 16px;
@@ -208,22 +230,26 @@ footer {
     color: #E7C24F;
     font-size: small;
 }
+
 footer nav ul {
-    list-style: none; 
+    list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));   
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
     margin: 0;
-  }
+}
 
 footer a:hover {
     color: #FF652F;
 }
+
 footer a:visited {
     color: #396E94;
 }
+
 footer a:link {
     color: #14A76C;
 }
+
 footer nav {
     font-size: x-small;
 }
