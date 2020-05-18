@@ -17,41 +17,73 @@ footer {
 }
 
 .header_layout {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    margin: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 header img {
     max-width: 90px;
     height: auto;
-    grid-column: 1/2;
 }
 .title_layout {
-    max-width: 95px;
-    height: auto;
-    grid-column: 3/4;
+    text-align: center;
 }
 
-header nav {
+.title_layout h1 {
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+
+#motto {
+    margin-top: -10px;
+    padding-top: 0%;
+}
+
+#mainNav {
     background-color: #0B4F6C;
     font-size: 1em;
 }
 
-header nav ul {
+#mainNav ul.hide {
+    display: none;
+}
+
+#mainNav button {
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: rgba(0,0,0,0.75);
+}
+
+#mainNav ul {
+    padding: 0;
+    margin: 0;
     list-style: none;
     text-align: center;
 }
 
-header nav a {
+#mainNav li a {
     color: #b4c5e4;
+    display: block;
+    padding: 0.8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid rgba(0,0,0,0.3)
 }
 
-header nav a:hover {
+#mainNav li a:hover {
     background-color: #3066be;
     color: #fbfff1;
 }
 
-header nav a:visited {
+#mainNav li a:visited {
+    color: #3C3744;
+}
+
+#mainNav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
     color: #3C3744;
 }
 
@@ -75,6 +107,7 @@ h1 {
 
 h2 {
     font-size: 1.75rem;
+    text-align: center;
 }
 .placeholder {
     display: block;
@@ -111,4 +144,11 @@ footer a:link {
 
 footer nav {
     font-size: x-small;
+}
+
+/*----- Clearfix: Force an element not to collapse ----*/
+clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }

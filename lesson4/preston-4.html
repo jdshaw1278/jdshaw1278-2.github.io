@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/l4main.css">
     <link rel="stylesheet" href="css/l4medium.css">
     <link rel="stylesheet" href="css/l4large.css">
+    <script src="js/script.js"></script>
     <title>W4S: Preston, ID</title>
     <meta name="description" content="WDD 230 Lesson 4: Preston, ID page of weather site for J. Shaw, Spring 2020">
 </head>
@@ -22,15 +23,15 @@
                 <div id="motto">Getting an "A" in Preparation!</div>
             </div>
         </section>
-        <nav>
-            <ul>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Storm Center</a></li>
-                <li><a href="#">Gallery</a></li>
+        <nav id="mainNav" class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="dropdown" class="hide">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="active">Preston</a></li>
+                <li><a href="#" class="active">Soda Springs</a></li>
+                <li><a href="#" class="active">Fish Haven</a></li>
+                <li><a href="#" class="active">Storm Center</a></li>
+                <li><a href="#" class="active">Gallery</a></li>
             </ul>
         </nav>
     </header>

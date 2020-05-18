@@ -1,15 +1,18 @@
 @media only screen and (min-width: 60em) {
+    
     header img {
         max-width: 200px;
         height: auto;
     }
-    .title_layout {
-        max-width: 250px;
-        height: auto;
+    #motto {
+        margin-top: -20px;
     }
-
     h1 {
         font-size: 4rem;
+    }
+
+    #mainNav ul li a {
+        padding: 0.6rem 1rem;
     }
     
     h2 {
