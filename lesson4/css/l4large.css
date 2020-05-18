@@ -1,0 +1,22 @@
+@media only screen and (min-width: 60em) {
+    header img {
+        max-width: 200px;
+        height: auto;
+    }
+    .title_layout {
+        max-width: 250px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+    
+    .placeholder {
+        margin: 5px;
+    }
+}

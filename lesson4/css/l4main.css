@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Kotta+One|Raleway');
+
+body {
+    background-color: #b4c5e4;
+    font-family: "Raleway", Arial, sans-serif;
+    line-height: 1.5;
+    height: 100%;
+}
+
+header,
+footer {
+    background-color: #090c9b;
+    color: #fbfff1;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.75rem;
+}
+
+.header_layout {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: none;
+}
+header img {
+    max-width: 90px;
+    height: auto;
+    grid-column: 1/2;
+}
+.title_layout {
+    max-width: 95px;
+    height: auto;
+    grid-column: 3/4;
+}
+
+header nav {
+    background-color: #0B4F6C;
+    font-size: 1em;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav a {
+    color: #b4c5e4;
+}
+
+header nav a:hover {
+    background-color: #3066be;
+    color: #fbfff1;
+}
+
+header nav a:visited {
+    color: #3C3744;
+}
+
+
+main {
+    margin: 0 auto;
+    padding: 0.75rem;
+    color: #090c9b;
+    width: 80%;
+    border-radius: 25px;
+}
+
+h1,
+h2 {
+    font-family: "Kotta One", Georgia, serif;
+    margin-bottom: .5rem;
+}
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+.placeholder {
+    display: block;
+    border: 1px dashed #1F271B;
+    padding: 15px;
+    background-color: aqua;
+    color: #0B4F6C;
+    font-style: italic;
+}
+
+footer {
+    color: #fbfff1;
+    font-size: small;
+}
+
+footer nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    margin: 0;
+}
+
+footer a:hover {
+    color: #1F271B;
+}
+
+footer a:visited {
+    color: #396E94;
+}
+
+footer a:link {
+    color: #b4c5e4;
+}
+
+footer nav {
+    font-size: x-small;
+}

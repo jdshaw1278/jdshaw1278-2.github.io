@@ -1,0 +1,38 @@
+@media only screen and (min-width: 37.5em) {
+    header, footer {
+        width: 98%;
+        border-radius: 10px;
+
+    }
+    .header_layout {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        margin: 1em;
+    }
+    header img {
+        max-width: 125px;
+        height: auto;
+        grid-column: 2/3;
+        align-self: right;
+        justify-self: center;
+    }
+    .title_layout {
+        max-width: 140px;
+        height: auto;
+        grid-column: 3/4;
+        justify-self: center;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.5)
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    .placeholder {
+        margin: 5px;
+    }
+}
