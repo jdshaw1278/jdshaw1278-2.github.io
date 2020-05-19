@@ -21,24 +21,16 @@
         text-shadow: 2px 2px 8px rgba(0,0,0,0.5)
     }
     
-    #mainNav {
-
-    }
-
     #mainNav button {
         display: none;
     }
 
-    #mainNav ul {
-        margin-left: 2%;
-    }
-
     #mainNav ul.hide {
-        display: block;
-    }
-
-    #mainNav ul li {
-        float: left;
+        margin-left: 2%;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+        margin: 0;
     }
 
     #mainNav ul li a {
