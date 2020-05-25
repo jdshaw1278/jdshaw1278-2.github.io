@@ -103,7 +103,6 @@
     }
 
     .temps td {
-        padding-top: -10px;
         padding-bottom: 10px;
     }
 
@@ -116,7 +115,7 @@
         float: left;
         box-shadow: 10px 10px 5px #1f271b;
         margin-right: 15px;
-        margin bottom: 5px;
+        margin-bottom: 5px;
     }
 
     .contact_map {
@@ -148,4 +147,5 @@
     footer {
         width: 80%;
         border-radius: 10px;
+    }
 }
