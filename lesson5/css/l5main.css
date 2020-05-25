@@ -117,6 +117,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: .75rem;
+}
+
 .herosum {
     margin: 10px auto;
     position: relative;
@@ -124,23 +128,53 @@ h2 {
 
 .herosum img {
     width: 100%;
+    height: 100%;
 }
 
 .summary {
     position: absolute;
     top: 0px;
+    left: 10px;
+    width: 80%;
     font-size: .75em;
-    background: radial-gradient(#eee, #EDF5E1);
-    border: 1px solid #000;
+    background: radial-gradient(#3066be, #b4c5e4);
+    border: 1px solid #3c3744;
     padding: 5px;
-    box-shadow: 0 0 30px #111;
+    box-shadow: 0 0 30px #1f271b;
     opacity: .8;
 }
 
+.summary hr {
+    border: 1px solid #fbfff1;
+    margin: none;
+    padding: none;
+}
+
 .summary ul {
-    color: #05386B;
+    color: #1f271b;
     font-weight: bolder;
     list-style: none;
+}
+
+.forecast {
+    display: none;
+}
+
+.article {
+    display: block;
+    padding: 5px;
+}
+
+.article img {
+  width: 200px;
+  height: auto;
+}
+
+.contact_map {
+    background-color: #3c3744;
+    color: #b4c5e4;
+    padding: 5px;
+    display: block;
 }
 
 .placeholder {

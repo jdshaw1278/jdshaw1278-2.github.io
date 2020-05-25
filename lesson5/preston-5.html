@@ -44,7 +44,7 @@
         <div class="herosum">
             <img src="images/red-and-gray-rain-boots-near-pink-umbrella-34519.jpg" alt="Rain boots and umbrella">
             <section class="summary">
-                <h2>Weather Summary</h2>
+                <h3>Weather Summary</h3>
                 <hr id="undersum">
                 <ul>
                     <li>Clear</li>
@@ -55,14 +55,80 @@
                 </ul>
             </section>
         </div>
-        <div class="placeholder">5 Day Forecast</div>
-        <div class="placeholder">Article</div>
-        <div class="placeholder">Contact Info</div>
+        <div class="forecast" style="overflow-x:auto;">
+            <h3>5 Day Forecast</h3>
+            <table class="daily">
+                <tr class="weekdays">
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tbody>
+                    <tr class="conditions">
+                        <td><img src="images/partly_cloudy.png" alt="Partly Cloudy"></td>
+                        <td><img src="images/partly_cloudy.png" alt="Partly Cloudy"></td>
+                        <td><img src="images/partly_cloudy.png" alt="Partly Cloudy"></td>
+                        <td><img src="images/sunny.png" alt="Sunny"></td>
+                        <td><img src="images/partly_cloudy.png" alt="Partly Cloudy"></td>
+                    </tr>
+                    <tr class="temps">
+                        <td>69&#176;F/40&#176;F</td>
+                        <td>75&#176;F/52&#176;F</td>
+                        <td>78&#176;F/51&#176;F</td>
+                        <td>84&#176;F/54&#176;F</td>
+                        <td>90&#176;F/57&#176;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="article">
+            <h3>Future Article</h3>
+            <img src="images/idaho.jpg" alt="Idaho landscape">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. In cursus turpis massa tincidunt dui ut ornare lectus. Massa massa ultricies mi
+                quis hendrerit dolor magna eget. Erat pellentesque adipiscing commodo elit at imperdiet. Urna molestie
+                at elementum eu. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Scelerisque varius
+                morbi enim nunc faucibus a pellentesque. Nunc sed augue lacus viverra vitae congue eu consequat. Non
+                curabitur gravida arcu ac tortor dignissim convallis aenean et. Aenean vel elit scelerisque mauris.
+                Laoreet suspendisse interdum consectetur libero id faucibus. Enim facilisis gravida neque convallis a
+                cras semper auctor. Et molestie ac feugiat sed lectus. Velit euismod in pellentesque massa placerat duis
+                ultricies lacus sed. Duis ultricies lacus sed turpis tincidunt.</p>
+            <p>Orci phasellus egestas tellus rutrum tellus. Blandit aliquam etiam erat velit scelerisque in dictum non
+                consectetur. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Turpis massa tincidunt dui ut
+                ornare lectus sit amet est. Sodales ut eu sem integer vitae. Ut lectus arcu bibendum at varius vel.
+                Interdum posuere lorem ipsum dolor sit. Posuere morbi leo urna molestie at elementum eu. Malesuada fames
+                ac turpis egestas integer eget. Id ornare arcu odio ut sem. Sapien nec sagittis aliquam malesuada
+                bibendum arcu vitae elementum curabitur. Facilisi etiam dignissim diam quis enim lobortis scelerisque
+                fermentum dui.</p>
+            <p>Nam libero justo laoreet sit amet cursus sit. Dolor sed viverra ipsum nunc aliquet. Vel elit
+                scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Amet venenatis urna cursus
+                eget nunc scelerisque viverra mauris in. Nisi quis eleifend quam adipiscing vitae proin. Tempus
+                iaculis urna id volutpat lacus laoreet non. Sed nisi lacus sed viverra tellus in. Nibh mauris cursus
+                mattis molestie a iaculis at erat pellentesque. Nulla facilisi morbi tempus iaculis urna id. Lacinia
+                at quis risus sed vulputate. Nunc sed augue lacus viverra vitae. Neque gravida in fermentum et
+                sollicitudin. Blandit aliquam etiam erat velit scelerisque in dictum.</p>
+        </div>
+        <div class="contact_map">
+            <iframe id="map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed">
+            </iframe>
+            <a href="https://www.embedgooglemap.net/en/"></a>
+            <div id="contact">
+                <h3>Contact Information</h3>
+                <p>5959 School Way<br>
+                    Idaho Falls, Idaho<br>
+                    555-555-5555<br>
+                    future_email@w4s.com</p>
+            </div>
+        </div>
     </main>
 
     <footer>
         <p>&copy; W4S 2020 | Jessica D. Shaw | <a href="https://www.byui.edu/online">BYUI Online</a>
-        <br><div id="current_date"></div></p>
+            <br>
+            <div id="current_date"></div>
+        </p>
         <nav>
             <ul>
                 <li><a href="../lesson4/preston-5.html">Previous Lesson</a></li>
