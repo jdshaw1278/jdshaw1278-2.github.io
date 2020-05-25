@@ -6,15 +6,18 @@
     <meta name="author" content="Jessica Shaw">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="css/l4main.css">
-    <link rel="stylesheet" href="css/l4medium.css">
-    <link rel="stylesheet" href="css/l4large.css">
+    <link rel="stylesheet" href="css/l5main.css">
+    <link rel="stylesheet" href="css/l5medium.css">
+    <link rel="stylesheet" href="css/l5large.css">
+    <link rel="shortcut icon" href="..w4slogo.ico">
     <script src="js/script.js"></script>
+    <script src="js/announcements.js"></script>
     <title>W4S: Preston, ID</title>
-    <meta name="description" content="WDD 230 Lesson 4: Preston, ID page of weather site for J. Shaw, Spring 2020">
+    <meta name="description" content="WDD 230 Lesson 5: Preston, ID page of weather site for J. Shaw, Spring 2020">
 </head>
 
 <body onLoad="javascript:createDate()">
+    <div id="announcements" style="display: block;"></div>
     <header>
         <section class="header_layout">
             <img src="images/w4slogo.png" alt="W4S Logo">
@@ -26,19 +29,32 @@
         <nav id="mainNav" class="clearfix">
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="dropdown" class="hide">
-                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#" class="active">Preston</a></li>
-                <li><a href="#" class="active">Soda Springs</a></li>
-                <li><a href="#" class="active">Fish Haven</a></li>
-                <li><a href="#" class="active">Storm Center</a></li>
-                <li><a href="#" class="active">Gallery</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <h2>Preston, Idaho</h2>
-        <div class="placeholder">Hero w/ Weather Summary</div>
+        <div class="herosum">
+            <img src="images/red-and-gray-rain-boots-near-pink-umbrella-34519.jpg" alt="Rain boots and umbrella">
+            <section class="summary">
+                <h2>Weather Summary</h2>
+                <hr id="undersum">
+                <ul>
+                    <li>Clear</li>
+                    <li>57&#176;F/14&#176;C</li>
+                    <li>Precipitation: 2%</li>
+                    <li>Humidity: 47%</li>
+                    <li>Wind: 8km/h</li>
+                </ul>
+            </section>
+        </div>
         <div class="placeholder">5 Day Forecast</div>
         <div class="placeholder">Article</div>
         <div class="placeholder">Contact Info</div>
@@ -49,9 +65,9 @@
         <br><div id="current_date"></div></p>
         <nav>
             <ul>
-                <li><a href="../lesson3/index.html">Previous Lesson</a></li>
+                <li><a href="../lesson4/preston-5.html">Previous Lesson</a></li>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="../lesson5/preston-5.html">Next Lesson</a></li>
+                <li><a href="#">Next Lesson</a></li>
             </ul>
         </nav>
     </footer>

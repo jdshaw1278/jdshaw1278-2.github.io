@@ -1,0 +1,25 @@
+@media only screen and (min-width: 60em) {
+    
+    header img {
+        max-width: 200px;
+        height: auto;
+    }
+    #motto {
+        margin-top: -20px;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+
+    #mainNav ul li a {
+        padding: 0.6rem 1rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+    
+    .placeholder {
+        margin: 5px;
+    }
+}
