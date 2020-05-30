@@ -1,0 +1,41 @@
+@media only screen and (min-width: 60em) {
+    
+    header img {
+        max-width: 200px;
+        height: auto;
+    }
+    #motto {
+        margin-top: -20px;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+
+    #mainNav ul li a {
+        padding: 0.6rem 1rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .summary {
+        position: absolute;
+        width: 30%;
+        top: 15px;
+        left: 15px;
+        font-size: 1em;
+    }
+    
+    .summary hr {
+        border: 2px solid #0b4f6c;
+    }
+    
+    .placeholder {
+        margin: 5px;
+    }
+}
