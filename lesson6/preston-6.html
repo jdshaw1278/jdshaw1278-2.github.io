@@ -52,10 +52,11 @@
                 <hr id="undersum">
                 <ul>
                     <li>Clear</li>
-                    <li>57&#176;F/14&#176;C</li>
+                    <li><span id="fahrenheit">57</span>&#176;F/<span id="celsius">14</span>&#176;C</li>
+                    <li>Wind Chill: <span id="windchillF"></span>&#176;F/<span id="windchillC"></span>&#176;C</li>
                     <li>Precipitation: 2%</li>
                     <li>Humidity: 47%</li>
-                    <li>Wind: 8km/h</li>
+                    <li>Wind: <span id="wind">8</span>km/h</li>
                 </ul>
             </section>
         </div>
@@ -140,6 +141,10 @@
             </ul>
         </nav>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontload.js">
+
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>
