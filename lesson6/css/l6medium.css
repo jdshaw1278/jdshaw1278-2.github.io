@@ -129,8 +129,6 @@
     #map {
         grid-column: 1/2;
         grid-row: 1/2;
-        justify-self: stretch;
-        align-self: stretch;
     }
 
     #contact {
@@ -140,9 +138,6 @@
         padding-left: 25px;
     }
        
-    .placeholder {
-        margin: 5px;
-    }
 
     footer {
         width: 80%;
