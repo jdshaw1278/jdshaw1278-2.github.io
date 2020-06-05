@@ -1,0 +1,93 @@
+import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Raleway:wght@300&display=swap');
+
+html {
+    background-color: #f4f3ee;
+    color: #463f3a;
+}
+
+body {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    height: 100%;
+}
+
+header,
+footer {
+    background-color: #463f3a;
+    color: #f4f3ee;
+    width: 90%;
+    border-radius: 10px;
+    margin: auto;
+    padding: 0.75rem;
+    max-width: 45rem;
+}
+
+main {
+    margin: auto;
+    padding: 0.75rem;
+    max-width: 45rem;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    margin: 0.15rem;
+}
+
+img {
+    min-width: 300px;
+    min-height: 400px;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+
+footer {
+    font-size: small;
+}
+
+nav ul {
+    list-style: none; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));   
+    margin: 0;
+  }
+
+footer a:hover {
+    color: #8a817c;
+}
+
+footer a:visited {
+    color: #bcb8b1;
+}
+
+footer a:link {
+    color: #e0afa0;
+}
+
+footer nav {
+    font-size: x-small;
+}
+
+@media only screen and (min-width: 37.5em) {
+    header, footer {
+        width: 98%;
+        border-radius: 10px;
+    }
+    h1 {
+        font-size: 3rem;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.5)
+    }
+    
+}
+
+@media only screen and (min-width: 60em) {
+    h1 {
+        font-size: 4rem;
+    }
+}
