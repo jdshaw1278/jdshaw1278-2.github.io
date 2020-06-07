@@ -147,13 +147,7 @@
 
     /*-----GALLERY----*/
     .image_layout {
-        display: grid;
-        margin: 0 auto;
         grid-template-columns: 1fr 1fr;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-        justify-items: center;
     }
     
 }

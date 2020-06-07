@@ -250,12 +250,16 @@ footer nav {
 
 /*-----GALLERY----*/
 .image_layout {
-    display: block;
+    display: grid;
     margin: 0 auto;
+    grid-template-columns: 1fr;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
 .image_layout img {
-    max-width: 300px;
-    margin: 0 auto;
+    max-width: 100%;
     filter: blur(0em);
     transition: filter 0.5s;
 }
