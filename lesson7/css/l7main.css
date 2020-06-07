@@ -1,3 +1,4 @@
+/*-----SITE WIDE----*/
 @import url('https://fonts.googleapis.com/css?family=Kotta+One|Raleway');
 
 body {
@@ -7,9 +8,6 @@ body {
     height: 100%;
 }
 
-#announcements {
-    text-align: center;
-}
 
 header {
     background-color: #090c9b;
@@ -121,54 +119,6 @@ h3 {
     font-size: .75rem;
 }
 
-.herosum {
-    margin: 10px auto;
-    position: relative;
-}
-
-.herosum img {
-    width: 100%;
-    height: 100%;
-}
-
-.summary {
-    position: absolute;
-    top: 0px;
-    left: 10px;
-    width: 80%;
-    font-size: .75em;
-    background: radial-gradient(#3066be, #b4c5e4);
-    border: 1px solid #3c3744;
-    padding: 5px;
-    box-shadow: 0 0 30px #1f271b;
-    opacity: .8;
-}
-
-.summary hr {
-    border: 1px solid #fbfff1;
-    margin: 0;
-    padding: 0;
-}
-
-.summary ul {
-    color: #1f271b;
-    font-weight: bolder;
-    list-style: none;
-}
-
-.forecast {
-    display: none;
-}
-
-.article {
-    display: block;
-    padding: 5px;
-}
-
-.article img {
-  width: 200px;
-  height: auto;
-}
 
 .contact_map {
     background-color: #3c3744;
@@ -229,6 +179,80 @@ footer a:link {
 footer nav {
     font-size: x-small;
 }
+
+/*-----PRESTON PAGE----*/
+#announcements {
+    text-align: center;
+}
+.herosum {
+    margin: 10px auto;
+    position: relative;
+}
+
+.herosum img {
+    width: 100%;
+    height: 100%;
+}
+
+.summary {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 80%;
+    font-size: .75em;
+    background: radial-gradient(#3066be, #b4c5e4);
+    border: 1px solid #3c3744;
+    padding: 5px;
+    box-shadow: 0 0 30px #1f271b;
+    opacity: .8;
+}
+
+.summary hr {
+    border: 1px solid #fbfff1;
+    margin: 0;
+    padding: 0;
+}
+
+.summary ul {
+    color: #1f271b;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.forecast {
+    display: none;
+}
+
+.article {
+    display: block;
+    padding: 5px;
+}
+
+.article img {
+  width: 200px;
+  height: auto;
+}
+
+/*-----GALLERY----*/
+.image_layout {
+    display: block;
+    margin: 0 auto;
+}
+.image_layout img {
+    max-width: 300px;
+    margin: 0 auto;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+img[data-src] {
+    filter: blur(0.2em);
+    transition: filter .5 sec;
+  }
+figcaption {
+    text-align: center;
+}
+
+
 
 /*----- Clearfix: Force an element not to collapse ----*/
 clearfix:after {

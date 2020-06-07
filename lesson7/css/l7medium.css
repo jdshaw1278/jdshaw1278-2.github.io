@@ -1,4 +1,5 @@
 @media only screen and (min-width: 37.5em) {
+    /*-----SITE WIDE----*/
     header {
         width: 98%;
         border-radius: 10px;
@@ -47,7 +48,33 @@
     h3 {
         font-size: 1.75rem;
     }
+    .contact_map {
+        border: 2px groove #0b4f6c;
+        padding: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
 
+    #map {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #contact {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        align-self: center;
+        padding-left: 25px;
+    }
+       
+
+    footer {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    /*-----PRESTON PAGE----*/
     .herosum {
         border: 3px solid #3c3744;
     }
@@ -118,29 +145,15 @@
         margin-bottom: 5px;
     }
 
-    .contact_map {
-        border: 2px groove #0b4f6c;
-        padding: 15px;
+    /*-----GALLERY----*/
+    .image_layout {
         display: grid;
+        margin: 0 auto;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
     }
-
-    #map {
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-
-    #contact {
-        grid-column: 2/3;
-        grid-row: 1/2;
-        align-self: center;
-        padding-left: 25px;
-    }
-       
-
-    footer {
-        width: 80%;
-        border-radius: 10px;
-    }
+    
 }
