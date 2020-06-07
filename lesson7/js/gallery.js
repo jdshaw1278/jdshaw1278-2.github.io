@@ -2,12 +2,12 @@ const images = document.querySelectorAll("[data-src]");
 
 const loadImages = (image) => {
     image.setAttribute("src",image.getAttribute("data-src"));
-    image.onload = () => {image.removeAttribute("data-src");
+    image.onload = () => {image.removeAttribute("data-src");}
 };
 
 const imgOptions = {
     threshold: 1,
-    rootMargin: "0px 0px 200px 0px"
+    rootMargin: "0px 0px 150px 0px"
 };
 
 if ('IntersectionObserver' in window) {
@@ -17,11 +17,11 @@ if ('IntersectionObserver' in window) {
                 loadImages(entry.target);
                 imgObserver.unobserve(entry.target);
             }
-        });
+        })
     }, imgOptions);
     images.forEach((img)=>{
         imgObserver.observe(img);
-    });
+    })
 } else {
     images.forEach(image => {
         loadImages(image);
