@@ -246,7 +246,7 @@ footer nav {
 }
 img[data-src] {
     filter: blur(0.2em);
-    transition: filter .5 sec;
+    transition: filter .5s;
   }
 figcaption {
     text-align: center;
