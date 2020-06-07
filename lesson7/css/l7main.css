@@ -74,19 +74,34 @@ header img {
     padding: 0.8rem 2%;
     text-decoration: none;
     border-top: 1px solid rgba(0, 0, 0, 0.3)
+    text-shadow:
+		-1px -1px 0 #fbfff1,
+		1px -1px 0 #fbfff1,
+		-1px 1px 0 #fbfff1,
+		1px 1px 0 #fbfff1;
 }
 
 #mainNav li a:hover {
     background-color: #3066be;
     color: #fbfff1;
+    text-shadow:
+		-1px -1px 0 #3C3744,
+		1px -1px 0 #3C3744,
+		-1px 1px 0 #3C3744,
+		1px 1px 0 #3C3744;
 }
 
 #mainNav li a:visited {
-    color: #3C3744;
+    color: #fbfff1;
+    text-shadow:
+		-1px -1px 0 #3C3744,
+		1px -1px 0 #3C3744,
+		-1px 1px 0 #3C3744,
+		1px 1px 0 #3C3744;
 }
 
 #mainNav ul li a.active {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fbfff1;
 }
 
