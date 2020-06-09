@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
     line-height: 1.5;
     height: 100%;
@@ -25,7 +25,7 @@ footer {
 main {
     margin: auto;
     padding: 0.75rem;
-    max-width: 45rem;
+    max-width: 400px;
 }
 
 h1 {
@@ -35,21 +35,19 @@ h1 {
 
 table {
     border-collapse: collapse;
-    box-shadow: 5px 10px 8px #628ca6;
+    box-shadow: 15px 15px 15px #628ca6;
+    max-width:100%;
     margin: auto;
 }
 table, th, td {
-    border: 1px solid gray;
+    border: 1px solid #b4b4b2;
 }
 th, td {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 8px;
 }
 .nthchild1 {
     background-color: #7fb9c2;
-    font-size: x-large;
+    font-size: 24px;
 }
 .nthchild2 {
     background-color: #628ca6;
