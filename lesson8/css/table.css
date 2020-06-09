@@ -43,7 +43,7 @@ table, th, td {
     border: 1px solid #b4b4b2;
 }
 th, td {
-    padding-top: 8px;
+    padding: 8px;
 }
 .nthchild1 {
     background-color: #7fb9c2;
@@ -63,7 +63,7 @@ tbody td:hover {
 }
 tfoot {
     background-color: #7fb9c2;
-    font-size: smaller;
+    font-size: x-small;
 }
 
 
