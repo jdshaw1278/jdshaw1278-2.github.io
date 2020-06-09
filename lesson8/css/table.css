@@ -1,0 +1,116 @@
+html {
+    background-color: #e7f0ed;
+    color: black;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    height: 100%;
+}
+
+header,
+footer {
+    background-color: #262626;
+    color: #e7f0ed;
+    width: 90%;
+    border-radius: 10px;
+    margin: auto;
+    padding: 0.75rem;
+    max-width: 45rem;
+}
+
+main {
+    margin: auto;
+    padding: 0.75rem;
+    max-width: 45rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0.15rem;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 5px 10px 8px #628ca6;
+    margin: auto;
+}
+table, th, td {
+    border: 1px solid gray;
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nthchild1 {
+    background-color: #7fb9c2;
+    font-size: x-large;
+}
+.nthchild2 {
+    background-color: #628ca6;
+    color: #e7f0ed;
+    font-weight: bold;
+}
+tbody td:hover {
+    background-color: #628ca6;
+    color: #e7f0ed;
+}
+.nthchild3 {
+    font-style: italic;
+}
+tfoot {
+    background-color: #7fb9c2;
+    font-size: smaller;
+}
+
+
+
+footer {
+    font-size: small;
+}
+
+nav ul {
+    list-style: none; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));   
+    margin: 0;
+  }
+
+footer a:hover {
+    color: #8a817c;
+}
+
+footer a:visited {
+    color: #bcb8b1;
+}
+
+footer a:link {
+    color: #e0afa0;
+}
+
+footer nav {
+    font-size: x-small;
+}
+
+@media only screen and (min-width: 37.5em) {
+    header, footer {
+        width: 98%;
+        border-radius: 10px;
+    }
+    h1 {
+        font-size: 3rem;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.5)
+    }
+    
+}
+
+@media only screen and (min-width: 60em) {
+    h1 {
+        font-size: 4rem;
+    }
+}
