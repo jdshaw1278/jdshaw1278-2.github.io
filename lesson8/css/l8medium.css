@@ -74,7 +74,7 @@
         border-radius: 10px;
     }
 
-    /*-----PRESTON PAGE----*/
+    /*-------------------------------------------------------------PRESTON PAGE------------------------------------*/
     .herosum {
         border: 3px solid #3c3744;
     }
@@ -145,9 +145,17 @@
         margin-bottom: 5px;
     }
 
-    /*-----GALLERY----*/
+    /*--------------------------------------------------GALLERY---------------------------------------------*/
     .image_layout {
         grid-template-columns: 1fr 1fr;
     }
-    
+
+    /*---------------------------------------------------STORM CENTER----------------------------------------*/
+    form input.submitBtn {
+        box-shadow: 0 0 50px #3c3744;
+    }
+    .thanks p {
+        max-width: 70%;
+        font-size: 1.75rem;
+    }
 }

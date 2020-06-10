@@ -195,7 +195,7 @@ footer nav {
     font-size: x-small;
 }
 
-/*-----PRESTON PAGE----*/
+/*----------------------------------PRESTON PAGE--------------------------------------*/
 #announcements {
     text-align: center;
 }
@@ -248,7 +248,7 @@ footer nav {
   height: auto;
 }
 
-/*-----GALLERY----*/
+/*---------------------------------------------------GALLERY----------------------------------------*/
 .image_layout {
     display: grid;
     margin: 0 auto;
@@ -271,7 +271,75 @@ figcaption {
     text-align: center;
 }
 
+/*---------------------------------------------------STORM CENTER----------------------------------------*/
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #3c3744;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: 25rem;
+}
+form legend {
+    font-weight: bold;
+}
+form {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #0b4f6c;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-image: rgba(0,0,0,0.1);
+}
+form label.level {
+    display: block;
+    padding: .75 rem 0;
+}
+.slideRange {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+.slideRange input {
+    display: flex;
+    font-size: 1rem;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+}
+#ratingvalue {
+    text-align: center;
+    font-style: italic;
+}
+form input.submitBtn {
+    border: none;
+    background-color: #090c9b;
+    color: #fbfff1;
+    border-radius: 1rem;
+    padding: .75rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
 
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: #3066be solid 6px;
+}
 
 /*----- Clearfix: Force an element not to collapse ----*/
 clearfix:after {

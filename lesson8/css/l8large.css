@@ -23,7 +23,7 @@
         font-size: 2rem;
     }
 
-    /*-----PRESTON PAGE----*/
+    /*----------------------------------------------PRESTON PAGE----------------------------------------*/
     .summary {
         position: absolute;
         width: 30%;
@@ -36,7 +36,7 @@
         border: 2px solid #0b4f6c;
     }
 
-    /*-----GALLERY----*/
+    /*--------------------------------------------------GALLERY-------------------------------------------*/
     .image_layout {
         display: grid;
         margin: 0 auto;
@@ -48,4 +48,14 @@
     }
     .id_images:hover {box-shadow: 0 0 50px #333;}
     figcaption:hover {box-shadow: 0 0 50px #333;}
+
+    /*---------------------------------------------------STORM CENTER----------------------------------------*/
+    form label.level {
+        padding: .4rem 0;
+    }
+    .thanks p {
+        margin: 0 auto;
+        font-size: 2rem;
+        text-align: center;
+    }
 }
