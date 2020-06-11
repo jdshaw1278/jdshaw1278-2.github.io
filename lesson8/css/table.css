@@ -25,7 +25,6 @@ footer {
 main {
     margin: auto;
     padding: 0.75rem;
-    max-width: 400px;
 }
 
 h1 {
@@ -35,34 +34,39 @@ h1 {
 
 table {
     border-collapse: collapse;
+    border: 2px solid rgba(190,191,190);
     box-shadow: 15px 15px 15px #628ca6;
-    max-width:100%;
     margin: auto;
 }
-table, th, td {
-    border: 1px solid #b4b4b2;
-}
 th, td {
-    padding: 8px;
+    border: 2px solid rgba(190,191,190);
+    padding: 10px 20px;
 }
-.nthchild1 {
+th {
+    padding: 10px 20px 10px 20px;
+}
+tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
+thead tr:nth-child(1) {
     background-color: #7fb9c2;
-    font-size: 24px;
+    font-size: 35px;
 }
-.nthchild2 {
+thead tr:nth-child(2) {
     background-color: #628ca6;
     color: #e7f0ed;
     font-weight: bold;
 }
-tbody td:hover {
+.oddballout {
     background-color: #628ca6;
     color: #e7f0ed;
 }
-.nthchild3 {
+tbody tr:nth-child(5) td:nth-child(1){
     font-style: italic;
 }
-tfoot {
+tfoot tr:nth-child(1){
     background-color: #7fb9c2;
+    padding: 10px 20px 10px 20px;
     font-size: x-small;
 }
 
