@@ -74,11 +74,6 @@ header img {
     padding: 0.8rem 2%;
     text-decoration: none;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
-    text-shadow:
-		-1px -1px 0 #fbfff1,
-		1px -1px 0 #fbfff1,
-		-1px 1px 0 #fbfff1,
-		1px 1px 0 #fbfff1;
 }
 
 #mainNav li a:hover {
@@ -277,7 +272,7 @@ form fieldset {
     border: 1px solid #3c3744;
     border-radius: 10px;
     padding: .5rem 2%;
-    max-width: 25rem;
+    max-width: 30rem;
 }
 form legend {
     font-weight: bold;
@@ -300,11 +295,11 @@ form label.top input, form label.top select {
     padding: .75rem;
     width: 100%;
     max-width: 20rem;
-    background-image: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.1);
 }
 form label.level {
     display: block;
-    padding: .75 rem 0;
+    padding: .75rem 0;
 }
 .slideRange {
     display: block;
