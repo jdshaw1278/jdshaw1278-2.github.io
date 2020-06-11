@@ -151,6 +151,12 @@
     }
 
     /*---------------------------------------------------STORM CENTER----------------------------------------*/
+    form label.top input, form label.top select {
+        width: 100%;
+    }
+    .slideRange input {
+        width: 100%;
+    }
     form input.submitBtn {
         box-shadow: 0 0 50px #3c3744;
     }

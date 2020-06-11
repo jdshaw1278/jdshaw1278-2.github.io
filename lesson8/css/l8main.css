@@ -293,7 +293,6 @@ form label.top input, form label.top select {
     border: solid 1px #0b4f6c;
     border-radius: 4px;
     padding: .75rem;
-    width: 100%;
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
 }
@@ -310,7 +309,6 @@ form label.level {
     display: flex;
     font-size: 1rem;
     padding: .75rem;
-    width: 100%;
     max-width: 20rem;
 }
 #ratingvalue {
