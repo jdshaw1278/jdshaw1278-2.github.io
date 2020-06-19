@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Rockwell');
+
+body {
+    background: white;
+    color: rgb(89,82,154);
+    font-family: 'Rockwell', serif;
+    text-align: center;
+}
+main {
+    background-color: rgb(221,221,221);
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 5px gray;
+    padding: 1em;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+section {
+    border: 1px solid rgb(139,135,178);
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(186,184,204);
+}
+p {
+    color: black;
+    font-weight: bold;
+}
+p:nth-child(2) {
+    margin-top: -10px;
+}
+p:nth-child(3) {
+    margin-top: -17px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+    box-shadow: .1rem .1rem .1rem .1rem gray;
+}
+
+@media only screen and (min-width: 37.5em) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+    img {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    img {
+        width: 85%;
+    }
+}
