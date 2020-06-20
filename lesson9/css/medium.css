@@ -74,6 +74,40 @@
         border-radius: 10px;
     }
 
+    /*----------------------------------HOME PAGE--------------------------------------*/
+    .towndata h2 {
+        -webkit-text-stroke: .1px #3c3744;
+        margin-top: 0em;
+    }
+    .towndata {
+        max-width: 100%;
+        margin: 1rem auto;
+        border: 2px groove #3066be;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px 0px rgba(31,39,27,0.5);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        gap: .1em;
+    }
+    .towndata img {
+        justify-self: stretch;
+    }
+    .towndata div {
+        margin: 0;
+        padding: 0%;
+        justify-self: center;
+        align-self: center;
+    }
+    #box-s img {
+        grid-column: 1/2;
+    }  
+    #box-s div {
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+    
     /*-------------------------------------------------------------PRESTON PAGE------------------------------------*/
     .herosum {
         border: 3px solid #3c3744;

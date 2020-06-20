@@ -23,6 +23,18 @@
         font-size: 2rem;
     }
 
+    /*----------------------------------HOME PAGE--------------------------------------*/
+    .large_columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .towndata {
+        border: 5px double #3066be;
+        border-radius: 25px;
+        display: block;
+    }
+
     /*----------------------------------------------PRESTON PAGE----------------------------------------*/
     .summary {
         position: absolute;

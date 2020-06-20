@@ -190,6 +190,33 @@ footer nav {
     font-size: x-small;
 }
 
+/*----------------------------------HOME PAGE--------------------------------------*/
+.towndata {
+    margin: 0 auto;
+    padding: .1em;
+    background-color: #0b4f6c;
+    color: #fbfff1;
+    max-width: 400px;
+    text-align: center;
+    gap: 5em;
+}
+.towndata p {
+    margin: 0;
+    padding: 0%;
+}
+.towndata p:nth-child(2) {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding-top: 0%;
+    font-style: italic;
+    font-size: smaller;
+}
+.towndata img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
 /*----------------------------------PRESTON PAGE--------------------------------------*/
 #announcements {
     text-align: center;
