@@ -211,9 +211,34 @@ footer nav {
     font-style: italic;
     font-size: smaller;
 }
+.towndata figcaption {
+    font-size: xx-small;
+    text-align: center;
+    font-style: italic;
+    color: #1f271b;
+}
 .towndata img {
     max-width: 100%;
     margin: 0 auto;
+}
+.currentStories {
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+}
+.currentStories h2 {
+    text-align: left;
+}
+.imgCredit {
+    margin-top: -5px;
+    font-size: xx-small;
+    font-style: italic;
+    color: #1f271b;
+}
+.currentStories img {
+    width: 100%;
+    max-width: 450px;
+    float: left;
 }
 
 

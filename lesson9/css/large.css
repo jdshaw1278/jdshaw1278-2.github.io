@@ -34,6 +34,17 @@
         border-radius: 25px;
         display: block;
     }
+    .currentStories h2 {
+        text-align: center;
+    }
+    .currentStories img {
+        max-width: 1090px;
+        float: none;
+        margin: 0 auto;
+    }
+    .imgCredit {
+        text-align: center;
+    }
 
     /*----------------------------------------------PRESTON PAGE----------------------------------------*/
     .summary {
