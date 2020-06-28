@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jessica Shaw">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="..w4slogo.ico">
+    <script src="js/script.js"></script>
+    <title>W4S: Thank You!</title>
+    <meta name="description" content="WDD 230 Lesson 9: Storm Center Thank you page of weather site for J. Shaw, Spring 2020">
+</head>
+
+<body onLoad="javascript:createDate()">
+    <header>
+        <section class="header_layout">
+            <img src="images/w4slogo.png" alt="W4S Logo">
+            <div class="title_layout">
+                <h1> Weather4Students</h1>
+                <div id="motto">Getting an "A" in Preparation!</div>
+            </div>
+        </section>
+        <nav id="mainNav" class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="dropdown" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="thanks">
+        <h2>Thank You!</h2>
+        <p>Thank you for taking the time to share the unusual weather and storms you've witnessed with us. If we decide to feature your submission on the page, we will be in touch. Please remember to use
+            all precautions and stay safe in dangerous weather. <br>We appreciate your support.</p>
+    </main>
+
+    <footer>
+        <p>&copy; W4S 2020 | Jessica D. Shaw | <a href="https://www.byui.edu/online">BYUI Online</a></p>
+        <div id="current_date"></div>
+
+        <nav>
+            <ul>
+                <li><a href="../lesson8/stormcenter.html">Previous Lesson</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Next Lesson</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontload.js"></script>
+
+</body>
+
+</html>

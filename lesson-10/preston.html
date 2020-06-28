@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jessica Shaw">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="..w4slogo.ico">
+    <script src="js/script.js"></script>
+    <title>W4S: Preston, ID</title>
+    <meta name="description" content="WDD 230 Lesson 9: Preston, ID page of weather site for J. Shaw, Spring 2020">
+</head>
+
+<body onLoad="javascript:createDate()">
+    <div id="announcements" style="display: block;"></div>
+    <header>
+        <section class="header_layout">
+            <img src="images/w4slogo.png" alt="W4S Logo">
+            <div class="title_layout">
+                <h1> Weather4Students</h1>
+                <div id="motto">Getting an "A" in Preparation!</div>
+            </div>
+        </section>
+        <nav id="mainNav" class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="dropdown" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html" class="active">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Preston, Idaho</h2>
+        <div class="herosum">
+            <picture class="hero">
+                <source media="(max-width: 400px)" srcset="images/red-and-gray-rain-boots-near-pink-umbrella400.jpg">
+                <source media="(max-width: 800px)" srcset="images/red-and-gray-rain-boots-near-pink-umbrella800.jpg">
+                <img src="images/red-and-gray-rain-boots-near-pink-umbrella1200.jpg" alt="Rainboots and Umbrella">
+            </picture>
+            <section class="summary">
+                <h3>Weather Summary</h3>
+                <hr id="undersum">
+                <div class="pSum"></div>
+            </section>
+        </div>
+        <div class="forecast" style="overflow-x:auto;">
+            <h3>5 Day Forecast</h3>
+            <div class="forecastdiv">
+                <div id="column1" class="forecasts">
+                  <div id="day1" class="weekdays"></div>
+                  <img src="#" alt="" id="img1" class="conditions">
+                  <div id="temp1" class="temps"></div>
+                </div>
+                <div  id="column2" class="forecasts">
+                  <div id="day2" class="weekdays"></div>
+                  <img src="#" alt="" id="img2" class="conditions">
+                  <div id="temp2" class="temps"></div>
+                </div>
+                <div id="column3" class="forecasts">
+                  <div id="day3" class="weekdays"></div>
+                  <img src="#" alt="" id="img3" class="conditions">
+                  <div id="temp3" class="temps"></div>
+                </div>
+                <div id="column4" class="forecasts">
+                  <div id="day4" class="weekdays"></div>
+                  <img src="#" alt="" id="img4" class="conditions">
+                  <div id="temp4" class="temps"></div>
+                </div>
+                <div id="column5" class="forecasts">
+                  <div id="day5" class="weekdays"></div>
+                  <img src="#" alt="" id="img5" class="conditions">
+                  <div id="temp5" class="temps"></div>
+                </div>
+            </div>
+        </div>
+        <div class="article">
+            <h3>Future Article</h3>
+            <img src="images/idaho.jpg" alt="Idaho landscape">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. In cursus turpis massa tincidunt dui ut ornare lectus. Massa massa ultricies mi
+                quis hendrerit dolor magna eget. Erat pellentesque adipiscing commodo elit at imperdiet. Urna molestie
+                at elementum eu. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Scelerisque varius
+                morbi enim nunc faucibus a pellentesque. Nunc sed augue lacus viverra vitae congue eu consequat. Non
+                curabitur gravida arcu ac tortor dignissim convallis aenean et. Aenean vel elit scelerisque mauris.
+                Laoreet suspendisse interdum consectetur libero id faucibus. Enim facilisis gravida neque convallis a
+                cras semper auctor. Et molestie ac feugiat sed lectus. Velit euismod in pellentesque massa placerat duis
+                ultricies lacus sed. Duis ultricies lacus sed turpis tincidunt.</p>
+            <p>Orci phasellus egestas tellus rutrum tellus. Blandit aliquam etiam erat velit scelerisque in dictum non
+                consectetur. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Turpis massa tincidunt dui ut
+                ornare lectus sit amet est. Sodales ut eu sem integer vitae. Ut lectus arcu bibendum at varius vel.
+                Interdum posuere lorem ipsum dolor sit. Posuere morbi leo urna molestie at elementum eu. Malesuada fames
+                ac turpis egestas integer eget. Id ornare arcu odio ut sem. Sapien nec sagittis aliquam malesuada
+                bibendum arcu vitae elementum curabitur. Facilisi etiam dignissim diam quis enim lobortis scelerisque
+                fermentum dui.</p>
+            <p>Nam libero justo laoreet sit amet cursus sit. Dolor sed viverra ipsum nunc aliquet. Vel elit
+                scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Amet venenatis urna cursus
+                eget nunc scelerisque viverra mauris in. Nisi quis eleifend quam adipiscing vitae proin. Tempus
+                iaculis urna id volutpat lacus laoreet non. Sed nisi lacus sed viverra tellus in. Nibh mauris cursus
+                mattis molestie a iaculis at erat pellentesque. Nulla facilisi morbi tempus iaculis urna id. Lacinia
+                at quis risus sed vulputate. Nunc sed augue lacus viverra vitae. Neque gravida in fermentum et
+                sollicitudin. Blandit aliquam etiam erat velit scelerisque in dictum.</p>
+        </div>
+        <div class="contact_map">
+            <div class="map-responsive"><iframe id="map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed">
+            </iframe></div>
+            <a href="https://www.embedgooglemap.net/en/"></a>
+            <div id="contact">
+                <h3>Contact Information</h3>
+                <p>5959 School Way<br>
+                    Idaho Falls, Idaho<br>
+                    555-555-5555<br>
+                    future_email@w4s.com</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; W4S 2020 | Jessica D. Shaw | <a href="https://www.byui.edu/online">BYUI Online</a></p>
+            <div id="current_date"></div>
+
+        <nav>
+            <ul>
+                <li><a href="../lesson8/preston-8.html">Previous Lesson</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Next Lesson</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontload.js"></script>
+
+    <script src="js/conditions.js"></script>
+    <script src="js/forecast.js"></script>
+</body>
+
+</html>
