@@ -1,0 +1,394 @@
+/*-----SITE WIDE----*/
+@import url('https://fonts.googleapis.com/css?family=Kotta+One|Raleway');
+
+body {
+    background-color: #b4c5e4;
+    font-family: "Raleway", Arial, sans-serif;
+    line-height: 1.5;
+    height: 100%;
+}
+
+
+header {
+    background-color: #090c9b;
+    color: #fbfff1;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.75rem;
+}
+
+.header_layout {
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    max-width: 90px;
+    height: auto;
+}
+
+.title_layout {
+    text-align: center;
+}
+
+.title_layout h1 {
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+
+#motto {
+    margin-top: -10px;
+    padding-top: 0%;
+}
+
+#mainNav {
+    background-color: #0B4F6C;
+    font-size: 1em;
+}
+
+#mainNav ul.hide {
+    display: none;
+}
+
+#mainNav button {
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+#mainNav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#mainNav li a {
+    color: #b4c5e4;
+    display: block;
+    padding: 0.8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#mainNav li a:hover {
+    background-color: #3066be;
+    color: #fbfff1;
+    text-shadow:
+		-1px -1px 0 #3C3744,
+		1px -1px 0 #3C3744,
+		-1px 1px 0 #3C3744,
+		1px 1px 0 #3C3744;
+}
+
+#mainNav li a:visited {
+    color: #fbfff1;
+    text-shadow:
+		-1px -1px 0 #3C3744,
+		1px -1px 0 #3C3744,
+		-1px 1px 0 #3C3744,
+		1px 1px 0 #3C3744;
+}
+
+#mainNav ul li a.active {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fbfff1;
+}
+
+
+
+main {
+    margin: 0 auto;
+    padding: 0.75rem;
+    color: #090c9b;
+    width: 80%;
+    border-radius: 25px;
+}
+
+h1,
+h2 {
+    font-family: "Kotta One", Georgia, serif;
+    margin-bottom: .5rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: .75rem;
+}
+
+
+.contact_map {
+    background-color: #3c3744;
+    color: #b4c5e4;
+    padding: 5px;
+    display: block;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+footer {
+    background-color: #090c9b;
+    color: #fbfff1;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-size: small;
+}
+
+footer p {
+    margin: 3px;
+}
+
+footer div {
+    margin-top: -3px;
+}
+footer nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    margin: 0;
+}
+
+footer a:hover {
+    color: #1F271B;
+}
+
+footer a:visited {
+    color: #396E94;
+}
+
+footer a:link {
+    color: #b4c5e4;
+}
+
+footer nav {
+    font-size: x-small;
+}
+
+/*----------------------------------HOME PAGE--------------------------------------*/
+.towndata {
+    margin: 0 auto;
+    padding: .1em;
+    background-color: #0b4f6c;
+    color: #fbfff1;
+    max-width: 400px;
+    text-align: center;
+    gap: 5em;
+}
+.towndata p {
+    margin: 0;
+    padding: 0%;
+}
+.towndata p:nth-child(2) {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding-top: 0%;
+    font-style: italic;
+    font-size: smaller;
+}
+.towndata figcaption {
+    font-size: xx-small;
+    text-align: center;
+    font-style: italic;
+    color: #1f271b;
+}
+.towndata img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.currentStories {
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+}
+.currentStories h2 {
+    text-align: left;
+}
+.imgCredit {
+    margin-top: -5px;
+    font-size: xx-small;
+    font-style: italic;
+    color: #1f271b;
+}
+.currentStories img {
+    width: 100%;
+    max-width: 450px;
+    float: left;
+}
+
+
+/*----------------------------------PRESTON PAGE--------------------------------------*/
+#announcements {
+    text-align: center;
+}
+.herosum {
+    margin: 10px auto;
+    position: relative;
+}
+
+.herosum img {
+    width: 100%;
+    height: 100%;
+}
+
+.summary {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 80%;
+    font-size: .75em;
+    background: radial-gradient(#3066be, #b4c5e4);
+    border: 1px solid #3c3744;
+    padding: 5px;
+    box-shadow: 0 0 30px #1f271b;
+    opacity: .8;
+}
+
+.summary hr {
+    border: 1px solid #fbfff1;
+    margin: 0;
+    padding: 0;
+}
+
+.summary ul {
+    color: #1f271b;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.forecast {
+    display: none;
+}
+
+.article {
+    display: block;
+    padding: 5px;
+}
+
+.article img {
+  width: 200px;
+  height: auto;
+}
+
+/*---------------------------------------------------GALLERY----------------------------------------*/
+.image_layout {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.image_layout img {
+    max-width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+img[data-src] {
+    filter: blur(0.2em);
+    transition: filter .5s;
+  }
+figcaption {
+    text-align: center;
+}
+
+/*---------------------------------------------------STORM CENTER----------------------------------------*/
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #3c3744;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: 30rem;
+}
+form legend {
+    font-weight: bold;
+}
+form {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #0b4f6c;
+    border-radius: 4px;
+    padding: .75rem;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form label.level {
+    display: block;
+    padding: .75rem 0;
+}
+.slideRange {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+.slideRange input {
+    display: flex;
+    font-size: 1rem;
+    padding: .75rem;
+    max-width: 20rem;
+}
+#ratingvalue {
+    text-align: center;
+    font-style: italic;
+}
+form input.submitBtn {
+    border: none;
+    background-color: #090c9b;
+    color: #fbfff1;
+    border-radius: 1rem;
+    padding: .75rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: #3066be solid 6px;
+}
+
+/*----- Clearfix: Force an element not to collapse ----*/
+clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
