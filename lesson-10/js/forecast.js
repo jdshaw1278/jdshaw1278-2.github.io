@@ -1,4 +1,4 @@
-const presForecast = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=b60ab52ec9efed85dea61d8455d22071';
+const presForecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=b60ab52ec9efed85dea61d8455d22071';
 
 fetch(presForecast)
     .then(response => response.json())

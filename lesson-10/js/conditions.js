@@ -1,4 +1,4 @@
-const presCurrent = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=b60ab52ec9efed85dea61d8455d22071';
+const presCurrent = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=b60ab52ec9efed85dea61d8455d22071';
 fetch(presCurrent)
   .then((response) => response.json())
   .then((jsObject) => {
