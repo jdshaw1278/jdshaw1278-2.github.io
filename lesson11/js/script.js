@@ -13,9 +13,4 @@ function createDate() {
 
     var fullDate = weekdays[weekday] + ', ' + dayOfMonth + " " + months[month] + " " + year;
     document.getElementById("current_date").innerHTML = fullDate;
-
-    if (weekday === 5) {
-        document.getElementById("announcements").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
-        document.getElementById("announcements").style.display = "block";
-    } 
 }

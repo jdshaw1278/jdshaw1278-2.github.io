@@ -16,7 +16,6 @@
 </head>
 
 <body onLoad="javascript:createDate()">
-    <div id="announcements" style="display: block;"></div>
     <header>
         <section class="header_layout">
             <img src="images/w4slogo.png" alt="W4S Logo">
@@ -30,8 +29,8 @@
             <ul id="dropdown" class="hide">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="preston.html" class="active">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>
                 <li><a href="stormcenter.html">Storm Center</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
@@ -42,9 +41,9 @@
         <h2>Preston, Idaho</h2>
         <div class="herosum">
             <picture class="hero">
-                <source media="(max-width: 400px)" srcset="images/red-and-gray-rain-boots-near-pink-umbrella400.jpg">
-                <source media="(max-width: 800px)" srcset="images/red-and-gray-rain-boots-near-pink-umbrella800.jpg">
-                <img src="images/red-and-gray-rain-boots-near-pink-umbrella1200.jpg" alt="Rainboots and Umbrella">
+                <source media="(max-width: 400px)" srcset="images/pp400.jpg">
+                <source media="(max-width: 800px)" srcset="images/pp800.jpg">
+                <img src="images/pp1200.jpg" alt="Downtown Preston">
             </picture>
             <section class="summary">
                 <h3>Weather Summary</h3>
@@ -56,62 +55,82 @@
             <h3>5 Day Forecast</h3>
             <div class="forecastdiv">
                 <div id="column1" class="forecasts">
-                  <div id="day1" class="weekdays"></div>
-                  <img src="#" alt="" id="img1" class="conditions">
-                  <div id="temp1" class="temps"></div>
+                    <div id="pday1" class="weekdays"></div>
+                    <img src="#" alt="" id="pimg1" class="conditions">
+                    <div id="ptemp1" class="temps"></div>
                 </div>
-                <div  id="column2" class="forecasts">
-                  <div id="day2" class="weekdays"></div>
-                  <img src="#" alt="" id="img2" class="conditions">
-                  <div id="temp2" class="temps"></div>
+                <div id="column2" class="forecasts">
+                    <div id="pday2" class="weekdays"></div>
+                    <img src="#" alt="" id="pimg2" class="conditions">
+                    <div id="ptemp2" class="temps"></div>
                 </div>
                 <div id="column3" class="forecasts">
-                  <div id="day3" class="weekdays"></div>
-                  <img src="#" alt="" id="img3" class="conditions">
-                  <div id="temp3" class="temps"></div>
+                    <div id="pday3" class="weekdays"></div>
+                    <img src="#" alt="" id="pimg3" class="conditions">
+                    <div id="ptemp3" class="temps"></div>
                 </div>
                 <div id="column4" class="forecasts">
-                  <div id="day4" class="weekdays"></div>
-                  <img src="#" alt="" id="img4" class="conditions">
-                  <div id="temp4" class="temps"></div>
+                    <div id="pday4" class="weekdays"></div>
+                    <img src="#" alt="" id="pimg4" class="conditions">
+                    <div id="ptemp4" class="temps"></div>
                 </div>
                 <div id="column5" class="forecasts">
-                  <div id="day5" class="weekdays"></div>
-                  <img src="#" alt="" id="img5" class="conditions">
-                  <div id="temp5" class="temps"></div>
+                    <div id="pday5" class="weekdays"></div>
+                    <img src="#" alt="" id="pimg5" class="conditions">
+                    <div id="ptemp5" class="temps"></div>
                 </div>
             </div>
         </div>
         <div class="article">
-            <h3>Future Article</h3>
-            <img src="images/idaho.jpg" alt="Idaho landscape">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. In cursus turpis massa tincidunt dui ut ornare lectus. Massa massa ultricies mi
-                quis hendrerit dolor magna eget. Erat pellentesque adipiscing commodo elit at imperdiet. Urna molestie
-                at elementum eu. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Scelerisque varius
-                morbi enim nunc faucibus a pellentesque. Nunc sed augue lacus viverra vitae congue eu consequat. Non
-                curabitur gravida arcu ac tortor dignissim convallis aenean et. Aenean vel elit scelerisque mauris.
-                Laoreet suspendisse interdum consectetur libero id faucibus. Enim facilisis gravida neque convallis a
-                cras semper auctor. Et molestie ac feugiat sed lectus. Velit euismod in pellentesque massa placerat duis
-                ultricies lacus sed. Duis ultricies lacus sed turpis tincidunt.</p>
-            <p>Orci phasellus egestas tellus rutrum tellus. Blandit aliquam etiam erat velit scelerisque in dictum non
-                consectetur. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Turpis massa tincidunt dui ut
-                ornare lectus sit amet est. Sodales ut eu sem integer vitae. Ut lectus arcu bibendum at varius vel.
-                Interdum posuere lorem ipsum dolor sit. Posuere morbi leo urna molestie at elementum eu. Malesuada fames
-                ac turpis egestas integer eget. Id ornare arcu odio ut sem. Sapien nec sagittis aliquam malesuada
-                bibendum arcu vitae elementum curabitur. Facilisi etiam dignissim diam quis enim lobortis scelerisque
-                fermentum dui.</p>
-            <p>Nam libero justo laoreet sit amet cursus sit. Dolor sed viverra ipsum nunc aliquet. Vel elit
-                scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Amet venenatis urna cursus
-                eget nunc scelerisque viverra mauris in. Nisi quis eleifend quam adipiscing vitae proin. Tempus
-                iaculis urna id volutpat lacus laoreet non. Sed nisi lacus sed viverra tellus in. Nibh mauris cursus
-                mattis molestie a iaculis at erat pellentesque. Nulla facilisi morbi tempus iaculis urna id. Lacinia
-                at quis risus sed vulputate. Nunc sed augue lacus viverra vitae. Neque gravida in fermentum et
-                sollicitudin. Blandit aliquam etiam erat velit scelerisque in dictum.</p>
+            <h3>208 Redial: Pedro's Home For Sale</h3>
+            <img src="images/pns.jpg" alt="Pedro's House">
+            <p>Back in 2005, one of the most iconic locations in the cult comedy (Napoleon Dynamite) went up for sale.</p>
+            <p>A few years ago, Gary Jones bought a fixer-upper, a duplex on a quiet street in Preston, Idaho.</p>
+
+            <p>"It's kind of an investment property for me," Jones said. "It's got a 2-bedroom apartment upstairs and a
+                one-bedroom in the basement."</p>
+
+            <p>Little did he know, the modest home would gain international attention, thanks to "Napoleon Dynamite," a
+                low-budget film that quickly became a multi-million dollar smash hit in 2004.</p>
+
+            <p>"We didn't know anything about the movie when we bought it," Jones said.</p>
+
+            <p>He purchased the duplex for $32,000 with the goal of selling it for $99,500, a 200% markup.</p>
+
+            <p>"It was shown three times in the movie," Jones said. "It was Pedro's house and the main scene is when
+                they did the bike jumps."</p>
+
+            <p>Pedro plays Napoleon's best friend.</p>
+
+            <p>His home is the backdrop for one of the most memorable scenes in the film, where Napoleon rides Pedro's
+                sledgehammer bike over a small ramp in front of the home.</p>
+
+            <p>But there's a bit of a buyer beware. </p>
+
+            <p>Not only will you know this is Pedro's house, but so will every other Napoleon Dynamite fan who comes to
+                town.</p>
+
+            <p>It's listed as number 6 on the "Sweet Map of Napoleon's Preston."</p>
+
+            <p>"It seems funny that there's so many people wanting to see Pedro's house," Terresa Taylor, Jones'
+                next-door neighbor said.</p>
+
+            <p>"Oh every weekend there's cars coming wanting to take pictures," Taylor said in 2005. "They all stand on
+                the road and I tell them to get on the porch. They're like 'Oh really? Can we get up there?' Yea, get up
+                there and take your picture!"</p>
+
+            <p>"I'd say 90% of them are coming to just to look, but about 10% show some interest," she added.</p>
+
+            <p>June 2020</p>
+            <p>A quick search of Zillow shows the home was recently renovated and is now valued at over $211,000.</p>
+            <p>Source: <a
+                    href="https://www.ktvb.com/article/news/local/208/napoleon-dynomite-16-years-later-preston-idaho/277-b33300fe-54c7-4fbd-87dc-a4ad1e72fbbf">KTVB</a>
+            </p>
         </div>
         <div class="contact_map">
-            <div class="map-responsive"><iframe id="map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed">
-            </iframe></div>
+            <div class="map-responsive"><iframe id="map"
+                    src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed">
+                </iframe></div>
             <a href="https://www.embedgooglemap.net/en/"></a>
             <div id="contact">
                 <h3>Contact Information</h3>
@@ -127,14 +146,6 @@
         <p>&copy; W4S 2020 | Jessica D. Shaw | <a href="https://www.byui.edu/online">BYUI Online</a></p>
         <div id="current_date"></div>
         <p>Weather Data Provided by <a href="http://www.openweathermap.org">Open Weather Map</a></p>
-
-        <nav>
-            <ul>
-                <li><a href="../lesson-10/preston.html">Previous Lesson</a></li>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#">Next Lesson</a></li>
-            </ul>
-        </nav>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/fontload.js"></script>

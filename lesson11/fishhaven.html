@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jessica Shaw">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="..w4slogo.ico">
+    <script src="js/script.js"></script>
+    <title>W4S: Fish Haven, ID</title>
+    <meta name="description" content="WDD 230 Lesson 11: Fish Haven, ID page of weather site for J. Shaw, Spring 2020">
+</head>
+
+<body onLoad="javascript:createDate()">
+    <header>
+        <section class="header_layout">
+            <img src="images/w4slogo.png" alt="W4S Logo">
+            <div class="title_layout">
+                <h1> Weather4Students</h1>
+                <div id="motto">Getting an "A" in Preparation!</div>
+            </div>
+        </section>
+        <nav id="mainNav" class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="dropdown" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html" class="active">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Fish Haven, Idaho</h2>
+        <div class="herosum">
+            <picture class="hero">
+                <source media="(max-width: 400px)" srcset="images/fhp400.jpg">
+                <source media="(max-width: 800px)" srcset="images/fhp800.jpg">
+                <img src="images/fhp1200.jpg" alt="Scofield House"">
+            </picture>
+            <section class=" summary">
+                <h3>Weather Summary</h3>
+                <hr id="undersum">
+                <div class="fhSum"></div>
+                </section>
+        </div>
+        <div class="forecast" style="overflow-x:auto;">
+            <h3>5 Day Forecast</h3>
+            <div class="forecastdiv">
+                <div id="column1" class="forecasts">
+                    <div id="fhday1" class="weekdays"></div>
+                    <img src="#" alt="" id="fhimg1" class="conditions">
+                    <div id="fhtemp1" class="temps"></div>
+                </div>
+                <div id="column2" class="forecasts">
+                    <div id="fhday2" class="weekdays"></div>
+                    <img src="#" alt="" id="fhimg2" class="conditions">
+                    <div id="fhtemp2" class="temps"></div>
+                </div>
+                <div id="column3" class="forecasts">
+                    <div id="fhday3" class="weekdays"></div>
+                    <img src="#" alt="" id="fhimg3" class="conditions">
+                    <div id="fhtemp3" class="temps"></div>
+                </div>
+                <div id="column4" class="forecasts">
+                    <div id="fhday4" class="weekdays"></div>
+                    <img src="#" alt="" id="fhimg4" class="conditions">
+                    <div id="fhtemp4" class="temps"></div>
+                </div>
+                <div id="column5" class="forecasts">
+                    <div id="fhday5" class="weekdays"></div>
+                    <img src="#" alt="" id="fhimg5" class="conditions">
+                    <div id="fhtemp5" class="temps"></div>
+                </div>
+            </div>
+        </div>
+        <div class="article">
+            <h3>Bear Lake Courthouse</h3>
+            <img src="images/fhns.jpg" alt="Bear Lake Courthouse">
+            <p>The Bear Lake County Courthouse was, at one time, the oldest building actively holding trials in Idaho.
+                Now, with a new courthouse in operation, it is probably the newest courthouse in the Gem State.</p>
+
+            <p>The old Paris courthouse was built from 1884 to 1885, then completely remodeled in 1908, and again in
+                1936.</p>
+
+            <p>Rex Payne, the county commissioner who oversaw the construction, said it’s not totally complete. The
+                landscaping and some interior and exterior work needs to be completed.</p>
+
+            <p>“The coronavirus held us up a little,” he said. “We haven’t been able to get the windows for the front of
+                the clerk’s office.”</p>
+
+            <p>However, the county has moved in and started using the building. They scheduled an open house to take
+                place on Monday, July 13 at 2 p.m. for the $5.8 million building.</p>
+
+            <p>“We had to get a judicial confirmation to build the courthouse,” Payne said. “The building failed two
+                Americans with Disabilities Act inspections and we couldn’t get the votes we needed to build it.”</p>
+
+            <p>The judicial confirmation was the only option.</p>
+
+            <p>Wayne Davidson, building inspector for the county, had the road and bridge crew help with some excavation
+                and other projects as needed.</p>
+
+            <p>“We are really happy with the way it all turned out with Big D Construction out of Rexburg doing the
+                construction,” he said. “They saved us a lot of money and Myers and Anderson, the architects out of
+                Pocatello, also did a nice job.”</p>
+
+            <p>Paris is the county seat of Bear Lake County and is located 10 miles southwest of Montpelier on Hwy 89,
+                roughly 6,000 feet above sea level. The historic town was founded in 1863, making it one of the oldest
+                communities in the Gem State.</p>
+
+            <p>The county chose a workable, conservative design. They weren’t after bells and whistles. The new building
+                is located just north of where the current building is, said County Clerk Cindy Garner.</p>
+
+            <p>The new 15,000 square-foot courthouse is ADA compliant and on a single floor. Besides the courtroom,
+                there is a meeting room for the commissioners and offices for the clerk, treasurer, assessor,
+                prosecuting attorney, driver’s license and sheriff’s office.</p>
+
+            <p>There was no jail needed, because the county contracts with Caribou County to house prisoners.</p>
+
+            <p>“We had a study done to find out what the price of remodeling the old courthouse would be compared to
+                building a new one. The difference was $70,000,” Garner said. “We tried three times to get a $3 million
+                bond passed to fund the new building, and finally had to resort to judicial confirmation.”</p>
+
+            <p>Now that the building is finished, the fate of the old courthouse has not been announced yet.</p>
+            <p>Source: <a
+                    href="https://www.cachevalleydaily.com/news/archive/2020/06/25/bear-lake-courthouse-to-hold-open-house-for-their-new-digs/#.XvrQcyhKgdU">Cache
+                    Valley Daily</a>
+            </p>
+        </div>
+        <div class="contact_map">
+            <div class="map-responsive"><iframe id="map"
+                    src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed">
+                </iframe></div>
+            <a href="https://www.embedgooglemap.net/en/"></a>
+            <div id="contact">
+                <h3>Contact Information</h3>
+                <p>5959 School Way<br>
+                    Idaho Falls, Idaho<br>
+                    555-555-5555<br>
+                    future_email@w4s.com</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; W4S 2020 | Jessica D. Shaw | <a href="https://www.byui.edu/online">BYUI Online</a></p>
+        <div id="current_date"></div>
+        <p>Weather Data Provided by <a href="http://www.openweathermap.org">Open Weather Map</a></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontload.js"></script>
+
+    <script src="js/conditions.js"></script>
+    <script src="js/forecast.js"></script>
+</body>
+
+</html>
