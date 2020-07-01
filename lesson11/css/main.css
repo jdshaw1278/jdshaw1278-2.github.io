@@ -242,7 +242,7 @@ footer nav {
 }
 
 
-/*----------------------------------PRESTON PAGE--------------------------------------*/
+/*----------------------------------TOWN PAGES--------------------------------------*/
 #announcements {
     text-align: center;
 }
@@ -279,6 +279,26 @@ footer nav {
     color: #1f271b;
     font-weight: bolder;
     list-style: none;
+}
+
+.upcoming {
+    margin: 0 auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    width: 90%;
+    font-size: .75em;
+    background-color: #090c9b;
+    color: #b4c5e4;
+    text-align: center;
+    border: 3px dashed #3066be;
+    border-radius: 5%;
+    padding: 5px;
+    box-shadow: 0 0 30px #1f271b;
+}
+.upcoming hr {
+    border: 1px solid #0b4f6c;
+    margin: 0;
+    padding: -5px;
 }
 
 .forecast {

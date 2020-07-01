@@ -128,7 +128,7 @@
     }
 
     
-    /*-------------------------------------------------------------PRESTON PAGE------------------------------------*/
+    /*-----------------------------------------------TOWN PAGES--------------------------------------------------*/
     .herosum img {
         border: 3px solid #3c3744;
     }
@@ -146,7 +146,13 @@
     .summary hr {
         border: 1px solid #0b4f6c;
     }
-
+    .upcoming {
+        margin-bottom: 3em;
+        margin-top: 3em;
+        width: 70%;
+        font-size: .85em;
+        border-radius: 15%;
+    }
     .forecast {
         display: block;
         width: 75%;
@@ -168,7 +174,7 @@
         border-spacing: 0;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(1fr, 5);
+        grid-template-columns: repeat(5, 1fr);
     }
     #column1 {
         grid-column: 1/2;
