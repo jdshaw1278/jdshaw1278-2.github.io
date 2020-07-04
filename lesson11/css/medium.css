@@ -5,10 +5,6 @@
         border-radius: 10px;
 
     }
-    .header_layout {
-        margin: 1em;
-    }
-    
     header img {
         max-width: 125px;
         height: auto;
@@ -142,10 +138,17 @@
         border: 1px groove #3c3744;
         border-radius: 10px;
     }
+    .summary h3 {
+        margin: 14px;
+    }
     
     .summary hr {
         border: 1px solid #0b4f6c;
     }
+    .summary p {
+        margin: 7px;
+    }
+
     .upcoming {
         margin-bottom: 3em;
         margin-top: 3em;

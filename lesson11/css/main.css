@@ -18,7 +18,7 @@ header {
 }
 
 .header_layout {
-    margin: 0;
+    margin-top: 0px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -268,11 +268,17 @@ footer nav {
     box-shadow: 0 0 30px #1f271b;
     opacity: .8;
 }
+.summary h3 {
+    margin: 7px;
+}
 
 .summary hr {
     border: 1px solid #fbfff1;
     margin: 0;
     padding: 0;
+}
+.summary p {
+    margin: 3.5px;
 }
 
 .summary ul {
