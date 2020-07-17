@@ -1,5 +1,5 @@
 /* SITE WIDE */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;500&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;500&family=Permanent+Marker&display=swap');
 
 html {
   background-color: #FFF784;
@@ -26,14 +26,15 @@ body {
 .table-cf1 {
     background-color: #52eab5;
     color: #1c1c1c;
-    font-family: "Rock Salt", "Trebuchet MS", Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;;
+    font-size: xx-large;
     padding: 10px;
 }
 .table-cf2 {
     background-color: #ffafcd;
     color: #1c1c1c;
-    font-family: "Rock Salt", "Trebuchet MS", Helvetica, sans-serif;
+    font-family: 'Permanent Marker', cursive;;
+    font-size: larger;
     padding: 10px;
 }
 .table-cf4 {

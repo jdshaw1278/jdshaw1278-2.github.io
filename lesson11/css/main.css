@@ -18,7 +18,7 @@ header {
 }
 
 .header_layout {
-    margin-top: 0px;
+    margin-top: 0px; 
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;500&family=Permanent+Marker&display=swap');
+
+/*-------------------------------------------------SITE WIDE-------------------------------------------------*/
+body {
+    background-color: #FFF784;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: #1C1C1C;
+    line-height: 1.5;
+    height: 100%;
+}
+
+.banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-height: 200px;
+}
+
+#call2action {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#call2action img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: auto;
+}
+
+
+#mainNav {
+    background-color: #1c1c1c;
+    color: #ffb93f;
+    font-family: "Roboto", "Lucida Sans Unicode", "Lucida Grande", sans-serif
+    font-size: 1em;
+}
+
+#mainNav ul.hide {
+    display: none;
+}
+
+#mainNav button {
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fdebc4;
+}
+
+#mainNav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#mainNav li a {
+    color: #fdebc4;
+    display: block;
+    padding: 0.8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#mainNav li a:hover {
+    background-color: #ffafcd;
+    color: #c1c1c1;
+    text-shadow:
+		-1px -1px 0 #3c3744,
+		1px -1px 0 #3C3744,
+		-1px 1px 0 #3C3744,
+		1px 1px 0 #3C3744;
+}
+
+#mainNav li a:visited {
+    color: #52eab5;
+    text-shadow:
+		-1px -1px 0 #3C3744,
+		1px -1px 0 #3C3744,
+		-1px 1px 0 #3C3744,
+		1px 1px 0 #3C3744;
+}
+
+#mainNav ul li a.active {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffafcd;
+}
+
+.logo_layout {
+    margin: 0 auto;
+    padding: 0.75rem;
+    margin-top: 0px; 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_layout img {
+    max-width: 90px;
+    height: auto;
+}
+
+.company {
+    text-align: center;
+}
+
+.company h1 {
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+
+#motto {
+    margin-top: -10px;
+    padding-top: 0%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+footer {
+    font-family: "Roboto", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: smaller;
+    background-color: #1c1c1c;
+    color: #fff784;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  
+.footer_text {
+    grid-row: 2/3;
+    grid-column: span;
+    margin: 5px;
+    text-align: center;
+}
+
+.footer_text a {
+    color: #ffb93f;
+}
+
+.footer_text a:hover {
+    color: #fdebc4;
+}
+
+.footer_text a:visited {
+    color: #ffafcd;
+}
+
+.social {
+    grid-row: 1/2;
+    grid-column: span;
+    justify-self: center;
+}
+.social img {
+    max-width: 45px;
+}
+
+/*----- Clearfix: Force an element not to collapse ----*/
+clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*-------------------------------------------------HOME PAGE-------------------------------------------------*/
+
+
+/*-------------------------------------------------CONFIRMATION-------------------------------------------------*/
+
+
+/*-------------------------------------------------CONTACT-------------------------------------------------*/
+
+
+/*-------------------------------------------------RENTALS-------------------------------------------------*/
+
+
+/*-------------------------------------------------RESERVATIONS-------------------------------------------------*/
+
+
+/*-------------------------------------------------TOURS-------------------------------------------------*/
