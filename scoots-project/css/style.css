@@ -113,10 +113,10 @@ body {
 }
 
 #motto {
+    text-align: center
     margin-top: -10px;
     padding-top: 0%;
     text-align: left;
-    padding-left: 10px;
 }
 
 footer {
