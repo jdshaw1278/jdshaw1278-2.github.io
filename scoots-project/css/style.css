@@ -17,18 +17,32 @@ body {
     max-height: 200px;
 }
 
-#call2action {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#call2action img {
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    width: auto;
+h1, h2 {
+    font-family: 'Permanent Marker', cursive;
 }
 
+.call2action {
+    width: 300px;
+    height: 155px;
+    position: relative;
+    display: inline-block;
+}
+.call2action .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.call2action:hover .img-top {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+.call2action img {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #mainNav {
     background-color: #1c1c1c;
@@ -113,10 +127,8 @@ body {
 }
 
 #motto {
-    text-align: center
     margin-top: -10px;
     padding-top: 0%;
-    text-align: left;
 }
 
 footer {
@@ -127,11 +139,11 @@ footer {
     align-items: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
   
 .footer_text {
-    grid-row: 2/3;
+    grid-row: 3/4;
     grid-column: span;
     margin: 5px;
     text-align: center;
@@ -149,8 +161,14 @@ footer {
     color: #ffafcd;
 }
 
-.social {
+.footer_contact {
     grid-row: 1/2;
+    grid-column: span;
+    text-align: center;
+}
+
+.social {
+    grid-row: 2/3;
     grid-column: span;
     justify-self: center;
 }
@@ -167,7 +185,58 @@ clearfix:after {
 
 
 /*-------------------------------------------------HOME PAGE-------------------------------------------------*/
+.summary {
+    display: block;
+    padding: 5px;
+    margin: 0 auto;
+}
 
+.summary img {
+    justify-self: center;
+  display: block;
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.weather {
+    display: none;
+}
+.forecasts_mobile {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #24a5b5;
+    color: #fdebc4;
+    border: 5px double #ffafcd;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+.forecast_mobile {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+    }
+
+#today_mobile, #day5_mobile {
+    font-weight: bold;
+}
+
+.conditions_mobile img {
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 0em;
+    padding-bottom: 1px;
+}
+
+.temps_mobile {
+    margin-top: -5px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
 
 /*-------------------------------------------------CONFIRMATION-------------------------------------------------*/
 

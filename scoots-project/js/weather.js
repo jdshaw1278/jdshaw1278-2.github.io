@@ -10,6 +10,11 @@ fetch(current)
     document.getElementById('timg').alt = jsObject.weather[0].description;
     document.getElementById('ttemp').textContent = Math.round((jsObject.main.temp - 273.15) * (9 / 5) + 32) + '\u00B0 F';
     document.getElementById('thum').textContent = jsObject.main.humidity + "% Humidity";
+    document.getElementById('today_mobile').textContent = "Current Conditions";
+    document.getElementById('timg_mobile').src = "https://openweathermap.org/img/w/" + jsObject.weather[0].icon + ".png";
+    document.getElementById('timg_mobile').alt = jsObject.weather[0].description;
+    document.getElementById('ttemp_mobile').textContent = Math.round((jsObject.main.temp - 273.15) * (9 / 5) + 32) + '\u00B0 F';
+    document.getElementById('thum_mobile').textContent = jsObject.main.humidity + "% Humidity";
  });
 
 fetch(forecast)
@@ -30,6 +35,11 @@ fetch(forecast)
             document.getElementById('pimg'+(day+1)).alt = forecast.weather[0].description;
             document.getElementById('ptemp'+(day+1)).textContent = Math.round((forecast.main.temp - 273.15) * (9 / 5) + 32) + '\u00B0 F';
             document.getElementById('phum'+(day+1)).textContent = forecast.main.humidity + "% Humidity";
+            document.getElementById('day5_mobile').textContent = daysofweek[x.getDay()];
+            document.getElementById('img_mobile').src = "https://openweathermap.org/img/w/" + forecast.weather[0].icon + ".png";
+            document.getElementById('img_mobile').alt = forecast.weather[0].description;
+            document.getElementById('temp5_mobile').textContent = Math.round((forecast.main.temp - 273.15) * (9 / 5) + 32) + '\u00B0 F';
+            document.getElementById('hum5_mobile').textContent = forecast.main.humidity + "% Humidity";
 	        day++;	  
 	    });
     });

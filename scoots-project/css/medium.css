@@ -1,82 +1,175 @@
 @media only screen and (min-width: 37.5em) {
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;500&family=Permanent+Marker&display=swap');
 
-/*-------------------------------------------------SITE WIDE-------------------------------------------------*/
-#call2action img {
-    height: 125px;
-    width: auto;
-}
+    /*-------------------------------------------------SITE WIDE-------------------------------------------------*/
+    #call2action img {
+        height: 125px;
+        width: auto;
+    }
 
-#mainNav button {
-    display: none;
-}
+    #mainNav button {
+        display: none;
+    }
 
-#mainNav ul.hide {
-    margin-left: 2%;
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
-    margin: 0;
-}
+    #mainNav ul.hide {
+        margin-left: 2%;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+        margin: 0;
+    }
 
-#mainNav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0,0,0,0.3);
-    padding: 0.8rem 1rem;
-}
-.logo_layout {
-    width: 98%;
-    border-radius: 10px;
-}
-.logo_layout img {
-    max-width: 125px;
-    height: auto;
-}
-#motto {
-    margin-top: -15px;
-}
-footer {
-    height: 75px;
-    align-items: center;
-    display: grid;
-    grid-template-columns: auto 150px;
-    grid-template-rows: 1fr;
-  }
-  
-.footer_text {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    margin-left: 25px;
-    text-align: left;
-}
-.footer_text div {
-    margin-top: 0em;
-    padding-top: -10px;
-}
-.social {
-    justify-self: right;
-    align-content: center;
-    grid-row: 1/2;
-    padding-right: 5px;
-}
-.social img {
-    max-width: 45px;
-}
+    #mainNav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: 0.8rem 1rem;
+    }
 
-/*-------------------------------------------------HOME PAGE-------------------------------------------------*/
+    .logo_layout {
+        width: 98%;
+        border-radius: 10px;
+    }
+
+    .logo_layout img {
+        max-width: 125px;
+        height: auto;
+    }
+
+    #motto {
+        margin-top: -15px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    footer {
+        height: 75px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto 200px 150px;
+        grid-template-rows: 1fr;
+    }
+
+    .footer_text {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 25px;
+        text-align: left;
+    }
+
+    .footer_contact {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        text-align: left;
+    }
+
+    .social {
+        justify-self: right;
+        align-content: center;
+        grid-row: 1/2;
+        grid-column: 3/4;
+        padding-right: 5px;
+    }
+
+    .social img {
+        max-width: 45px;
+    }
+
+    /*-------------------------------------------------HOME PAGE-------------------------------------------------*/
+    .summary {
+        padding: 10px;
+    }
+
+    .summary img {
+        float: left;
+        box-shadow: 10px 10px 5px #1f271b;
+        margin-right: 15px;
+        margin-bottom: 5px;
+    }
+
+    .weather {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #24a5b5;
+        color: #fdebc4;
+        border: 5px double #ffafcd;
+        border-radius: 25px;
+        box-shadow: 0 0 25px #1c1c1c;
+        margin-bottom: 15px;
+    }
+
+    .weather h3 {
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .forecast {
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    #current {
+        grid-column: 1/2;
+    }
+
+    #day1 {
+        grid-column: 2/3;
+    }
+
+    #day2 {
+        grid-column: 3/4;
+    }
+
+    #day3 {
+        grid-column: 4/5;
+    }
+
+    #day4 {
+        grid-column: 5/6;
+    }
+
+    #day5 {
+        grid-column: 6/7;
+    }
+
+    #today,
+    .weekdays {
+        font-weight: bold;
+    }
+
+    .conditions img {
+        margin: 0 auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 0em;
+        padding-bottom: 1px;
+    }
+
+    .temps {
+        margin-top: -5px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .weather_mobile,
+    .forecasts_mobile {
+        display: none;
+    }
+
+    /*-------------------------------------------------CONFIRMATION-------------------------------------------------*/
 
 
-/*-------------------------------------------------CONFIRMATION-------------------------------------------------*/
+    /*-------------------------------------------------CONTACT-------------------------------------------------*/
 
 
-/*-------------------------------------------------CONTACT-------------------------------------------------*/
+    /*-------------------------------------------------RENTALS-------------------------------------------------*/
 
 
-/*-------------------------------------------------RENTALS-------------------------------------------------*/
+    /*-------------------------------------------------RESERVATIONS-------------------------------------------------*/
 
 
-/*-------------------------------------------------RESERVATIONS-------------------------------------------------*/
-
-
-/*-------------------------------------------------TOURS-------------------------------------------------*/
+    /*-------------------------------------------------TOURS-------------------------------------------------*/
 }
