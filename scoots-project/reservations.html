@@ -45,19 +45,110 @@
     </header>
 
     <main>
-        
+        <div class="reserve_form">
+            <h2>Reserve Now!</h2>
+            <form  method="get" action="confirmation.html">
+              <ul class="basic_info">
+                <li>
+                  <label for="first-name">First Name: </label>
+                  <input type="text" id="first-name" size="50" placeholder="Enter your first name here">
+                </li>
+                <li>
+                  <label for="last-name">Last Name: </label>
+                  <input type="text" id="last-name" size="50" placeholder="Enter your last name here">
+                </li>
+                <li>
+                  <label for="email">Email: </label>
+                  <input type="email" id="email" size="50" placeholder="Enter your email here">
+                </li>
+                <li>
+                  <label for="phone">Phone: </label>
+                  <input type="tel" id="phone" size="15" placeholder="Enter your phone here">
+                </li>
+                <li>
+                    <label for="home">Home State/Country: </label>
+                    <input type="text" id="home" size="50" placeholder="Enter you home state or country here">
+                </li>
+                <li>
+                    <label for="cruise_line">What cruise line are you sailing with, if any?</label>
+                    <br><input type="text" id="cruise_line" size="50" placeholder="Enter cruise line info here">
+                </li>
+                <li>
+                    <label for="party_size">How many in your party? </label>
+                    <input type="text" id="party_size" size="5" placeholder="1">
+                </li>
+                <li>
+                    <label for="vehicles_avail">Choose a vehicle: </label>
+                    <select id="vehicles_avail" name="vehicles_avail">
+                      <option value="metro_scooter">Metro Scooter</option>
+                      <option value="dio_scooter">Dio Scooter</option>
+                      <option value="pcx_scooter">PCX150 Scooter</option>
+                      <option value="pioneer_atv">Pioneer ATV</option>
+                      <option value="wrangler_4d">4-Door Wrangler</option>
+                      <option value="wrangler_2d">2-Door Wrangler</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="veh_num">How many vehicles do you want? </label>
+                    <input type="text" id="veh_num" size="5" placeholder="1">
+                </li>
+                <li>
+                    How long do you wish to rent it for? 
+                    <br><label for="time">Choose a time frame: </label>
+                      <select id="time" name="time">
+                        <option value="hours">Hours</option>
+                        <option value="days">Days</option>
+                      </select>
+                    <br><label for="num_time">How many hours/days? </label>
+                        <input type="text" id="num_time" size="5" placeholder="1">
+                  </li>
+                  <li>
+                    <label for="rental_date">When? </label>
+                    <input type="date" id="rental_date" name="rental_date">
+                  </li>
+                <li>
+                    Do you need special accommodations?
+                    <br><section class="ifyes">*If yes, please provide details in comment box </section>
+                    <ul class="spec_accom">
+                        <li>
+                          <input type="checkbox" id="sa_yes">
+                          <label for="sa_yes">Yes</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" id="sa_no">
+                          <label for="sa_no">No</label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="message">Additional Comments or Information: </label>
+                    <br><textarea rows="6" cols="50" id="message" placeholder="Enter your message here"></textarea>
+                </li>
+                <li>
+                  <button type="submit" value="Make Reservation" class="reserved">Submit</button>
+                </li>
+              </ul>
+            </form>
+          </div>
     </main>
 
     <footer>
         <section class="footer_text">
-            <p>&copy; 2020 | Jessica D. Shaw | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            &copy; 2020 | Jessica D. Shaw | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            | Weather Data Provided by <a href="http://www.openweathermap.org" target="_blank">Open Weather Map</a>
             <div id="last_modified"></div>
         </section>
+        <section class="footer_contact">
+            Scoots Escape Rentals <br>Ph. 52-1-555-555-1234
+        </section>
         <div class="social">
-            <a href="https://www.instagram.com/" target="_blank"><img src="https://imagizer.imageshack.com/img923/2561/99hvAw.png" alt="Instagram Logo"></a>
-            <a href="https://www.facebook.com/" target="_blank"><img src="https://imagizer.imageshack.com/img921/96/52yBow.png" alt="Facebook Logo"></a>
-            <a href="https://twitter.com/" target="_blank"><img src="https://imagizer.imageshack.com/img922/8061/5a6ebo.png" alt="Twitter Logo"></a>
-          </div>
+            <a href="https://www.instagram.com/" target="_blank"><img
+                    src="https://imagizer.imageshack.com/img923/2561/99hvAw.png" alt="Instagram Logo"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img
+                    src="https://imagizer.imageshack.com/img921/96/52yBow.png" alt="Facebook Logo"></a>
+            <a href="https://twitter.com/" target="_blank"><img
+                    src="https://imagizer.imageshack.com/img922/8061/5a6ebo.png" alt="Twitter Logo"></a>
+        </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/frontload.js">

@@ -239,7 +239,15 @@ clearfix:after {
 }
 
 /*-------------------------------------------------CONFIRMATION-------------------------------------------------*/
-
+main {
+    margin: 0 auto;
+    text-align: center;
+}
+main img {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*-------------------------------------------------CONTACT-------------------------------------------------*/
 
@@ -291,7 +299,70 @@ table, td, th {
 }
 
 /*-------------------------------------------------RESERVATIONS-------------------------------------------------*/
-
+main {
+    padding: 50px 0;
+}
+.ifyes {
+    font-size: x-small;
+    font-style: italic;
+}
+.reserve_form {
+    width: 95%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+.reserve_form * {
+    box-sizing: border-box;
+}
+.basic_info, .spec_accom {
+    list-style-type: none;
+    padding: 0;
+}
+.basic_info {
+    max-width: 325px;
+    margin: 0 auto;
+}
+.basic_info li, .spec_accom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.spec_accom {
+    padding: 0 2px;
+    justify-content: space-between;
+}
+.basic_info > li:not(:last-child) {
+    margin-bottom: 5px;
+}
+.basic_info li {
+    padding: 2px;
+    font-weight: 75;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    flex: 1 0 120px;
+    max-width: 220px;
+    margin: 0;
+}
+.spec_accom {
+    flex: 1 0 220px;
+}
+.basic_info li input:not([type='checkbox']), .basic_info li textarea {
+    padding: 15px;
+    border: none;
+}
+.basic_info li button {
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+    background: #1c1c1c;
+    color: #ffb93f;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+}
+.spec_accom li {
+    width: 100px;
+}
 
 /*-------------------------------------------------TOURS-------------------------------------------------*/
 main img {
