@@ -283,6 +283,12 @@ table h3, .subheader1, .subheader2, .seats {
     padding-left: 3px;
     padding-right: 3px;
 }
+.reqs h2 {
+    padding-left: 10px;
+}
+.reqs li {
+    padding-left: 15px;
+}
 
 /*-------------------------------------------------RESERVATIONS-------------------------------------------------*/
 
