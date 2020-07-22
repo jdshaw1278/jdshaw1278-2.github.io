@@ -232,7 +232,6 @@ td, th {
     }
     .basic_info li {
         padding: 4px;
-        font-weight: 150;
         letter-spacing: .045em;
         max-width: 440px;
     }

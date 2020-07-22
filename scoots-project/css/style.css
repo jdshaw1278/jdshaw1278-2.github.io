@@ -336,7 +336,7 @@ main {
 }
 .basic_info li {
     padding: 2px;
-    font-weight: 75;
+    font-weight: bold;
     letter-spacing: .02em;
     text-transform: uppercase;
     flex: 1 0 120px;
