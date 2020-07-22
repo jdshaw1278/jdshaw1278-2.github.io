@@ -49,6 +49,9 @@
 
 
     /*-------------------------------------------------RENTALS-------------------------------------------------*/
+.table_head {
+    font-size: x-large;
+}
 .subheader1 {
     font-weight: bolder;
 }
@@ -117,4 +120,18 @@
 
 
     /*-------------------------------------------------TOURS-------------------------------------------------*/
+    
+    figure {
+        width: 600px;
+        height: 300px;
+        border: 5px solid #52eab5;
+        box-shadow: 10px 10px 5px #24a5b5;
+    }
+    .bus {
+        width: 700px;
+        height: 292px;
+    }
+    p {
+        width: 75%;
+    }
 }

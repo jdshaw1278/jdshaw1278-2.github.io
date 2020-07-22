@@ -173,8 +173,9 @@ table {
     border: 3px double #24a5b5;
 }
 
-table h3 {
+.table_head {
     font-family: 'Permanent Marker', cursive;
+    font-size: larger;
 }
 
 td, th {
@@ -217,4 +218,27 @@ td, th {
 
 
     /*-------------------------------------------------TOURS-------------------------------------------------*/
+    main img {
+        border-radius: 25px;
+    }
+    #scubaimg {
+        border-radius: 25px 0 0 25px;
+    }
+    #snorkelimg {
+        border-radius: 0 25px 25px 0;
+    }
+    figure {
+        width: 500px;
+        height: 250px;
+        border-radius: 25px;
+        border: 5px solid #52eab5;
+    }
+    .bus {
+        width: 550px;
+        height: 229px;
+    }
+    p {
+        width: 90%;
+        padding: 10px;
+    }
 }
