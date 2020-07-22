@@ -49,7 +49,65 @@
 
 
     /*-------------------------------------------------RENTALS-------------------------------------------------*/
+.subheader1 {
+    font-weight: bolder;
+}
+.subheader2 {
+    font-weight: bold;
+}
+.rates {
+    width: 125px;
+}
 
+.descriptions {
+    width: 80%;
+}
+
+#metro, #pcx, #door4 {
+    display: grid;
+    grid-template-columns: 305px auto;
+    grid-template-rows: 30px auto;
+}
+#dio, #atv, #door2 {
+    display: grid;
+    grid-template-columns: auto 305px;
+    grid-template-rows: 30px auto;
+}
+#metro img, #pcx img, #door4 img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+#dio img, #atv img, #door2 img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+#metro h3, #pcx h3, #door4 h3 {
+    text-align: left;
+    margin-left: 10px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#dio h3, #atv h3, #door2 h3 {
+    text-align: right;
+    margin-right: 10px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#metro p, #pcx p, #door4 p {
+    margin-left: 5px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#dio p,  #atv p, #door2 p {
+    grid-column: 1/2;
+    margin-right: 5px;
+    grid-row: 2/3;
+}
+
+.descriptions img {
+    width: 300px;
+    height: auto;
+}
 
     /*-------------------------------------------------RESERVATIONS-------------------------------------------------*/
 

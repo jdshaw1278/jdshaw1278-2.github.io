@@ -166,6 +166,49 @@
 
 
     /*-------------------------------------------------RENTALS-------------------------------------------------*/
+table {
+    width: 90%;
+    border-collapse: unset;
+    border-radius: 15px;
+    border: 3px double #24a5b5;
+}
+
+table h3 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+td, th {
+    border: 1px solid #52eab5;
+    padding: 3px;
+}
+
+.descriptions {
+    width: 90%;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#metro h3, #pcx h3, #door4 h3 {
+    text-align: right;
+}
+#dio h3, #atv h3, #door2 h3 {
+    text-align: left;
+}
+
+.descriptions img {
+    border: 3px solid #ffafcd;
+    width: 150px;
+    height: auto;
+}
+#metro img, #pcx img, #door4 img {
+    float: left;
+    margin-right: 8px;
+}
+#dio img, #atv img, #door2 img {
+    float: right;
+}
+
+
 
 
     /*-------------------------------------------------RESERVATIONS-------------------------------------------------*/

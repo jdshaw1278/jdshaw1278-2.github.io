@@ -1,7 +1,7 @@
 WebFont.load({
     google: {
       families: [
-         'Rock Salt', 'Open Sans', 'Roboto'
+         'Permanent Marker', 'Open Sans', 'Roboto'
       ]
     }
   });
