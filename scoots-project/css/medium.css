@@ -160,15 +160,48 @@
     }
 
     /*-------------------------------------------------CONFIRMATION-------------------------------------------------*/
-    main img {
+    .confirmation img {
         max-width: 600px;
     }
 
     /*-------------------------------------------------CONTACT-------------------------------------------------*/
-
-
+.contact img {
+    max-width: 600px;
+    border: 4px solid #ffafcd;
+}
+.contact_us {
+    width: 70%;
+}
+.maya_block, .playa_block {
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 15px;
+    border: 4px dashed #ffafcd;
+    background-color: #24a5b5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.maya_map {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.playa_map {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#maya_office {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#playa_office {
+    text-align: right;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
     /*-------------------------------------------------RENTALS-------------------------------------------------*/
-table {
+    .rentals table {
     width: 90%;
     border-collapse: unset;
     border-radius: 15px;
@@ -180,7 +213,7 @@ table {
     font-size: larger;
 }
 
-td, th {
+.rentals td, .rentals th {
     border: 1px solid #52eab5;
     padding: 3px;
 }
@@ -237,7 +270,7 @@ td, th {
     }
 
     /*-------------------------------------------------TOURS-------------------------------------------------*/
-    main img {
+    .tours img {
         border-radius: 25px;
     }
     #scubaimg {
@@ -246,7 +279,7 @@ td, th {
     #snorkelimg {
         border-radius: 0 25px 25px 0;
     }
-    figure {
+    .tours figure {
         width: 500px;
         height: 250px;
         border-radius: 25px;
@@ -256,7 +289,7 @@ td, th {
         width: 550px;
         height: 229px;
     }
-    p {
+    .tours p {
         width: 90%;
         padding: 10px;
     }
